@@ -92,7 +92,7 @@ def transcribe(video_path: str, label: str = "") -> tuple[str, str]:
 
     print("書き起こし中...\n")
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         contents=[
             types.Part.from_uri(file_uri=video_file.uri, mime_type=mime_type),
             TRANSCRIPT_PROMPT,
