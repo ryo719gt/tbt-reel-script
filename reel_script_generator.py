@@ -723,6 +723,59 @@ Threads単体でマネタイズしようとする運用は絶対NG。
     return response.content[0].text
 
 
+def analyze_reference_reel(transcript: str) -> str:
+    """参考リールの書き起こしを分析し、TBTに転用できるパターンを抽出する"""
+    brief = load_brief()
+
+    prompt = f"""
+以下は競合・参考アカウントのInstagramトークリールの書き起こしです。
+TBT（エルメス専門買取・販売）の台本制作に活かすため、徹底的に分析してください。
+
+---
+【書き起こし】
+{transcript}
+---
+
+【分析の観点】
+
+**1. フック分析**
+- 使われているフックの型（禁止・警告 / 数字・実績 / 意外性 / ベネフィット / 問いかけ）
+- フックが「止まる理由」を1〜2行で説明
+- 20文字以内に圧縮するとどうなるか
+
+**2. 感情・心理構造の分析**
+- 視聴者のどんな感情・不安・欲求に訴えているか
+- コールドリーディング（心情代弁）はどこで使われているか
+- 「自分のことだ」と思わせる表現はどれか
+
+**3. 構成・テンポの分析**
+- 全体の構成（フック→導入→本編→CTAの流れ）
+- 1センテンスの長さ・テンポ感の特徴
+- 「間」や言葉の繰り返しがどう使われているか
+
+**4. TBTに転用できるパターン（最重要）**
+以下を具体的に抽出してください：
+- そのまま使えるフレーズ・言い回し（エルメス文脈に置き換えて）
+- 構造として盗める部分（どのセクションのどんな組み立て方）
+- 避けるべき点（TBTのブランドブリーフと合わない要素）
+
+---
+{brief}
+---
+
+**5. 推奨アクション**
+このリールの分析を踏まえ、TBTで試すべき台本テーマを3つ提案してください。
+""".strip()
+
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=2000,
+        messages=[{"role": "user", "content": prompt}]
+    )
+
+    return response.content[0].text
+
+
 def save_talk_content(content: str, topic: str, filename: str) -> str:
     """トークリール・ストーリーズ・Threads をテーマ別フォルダに保存する。
 
@@ -858,9 +911,50 @@ def main():
         print("  4: 台本を評価する（ファイルパスを指定）")
         print("  5: ストーリーズ投稿生成（既存台本ファイルから転用）")
         print("  6: Threadsツリー投稿生成（既存台本ファイルから転用）")
-        mode = input("モード (1/2/3/4/5/6): ").strip()
+        print("  7: 参考リール分析（書き起こしテキストからパターン抽出→台本生成）")
+        mode = input("モード (1/2/3/4/5/6/7): ").strip()
 
-        if mode == "6":
+        if mode == "7":
+            print("参考リールの書き起こしテキストを貼り付けてください。")
+            print("（transcribe_reel.py の出力、または手動の書き起こし）")
+            print("入力が終わったら空行でEnterを2回押してください")
+            print("─" * 40)
+            lines = []
+            while True:
+                line = input()
+                if line == "" and lines and lines[-1] == "":
+                    break
+                lines.append(line)
+            transcript = "\n".join(lines).strip()
+            if not transcript:
+                print("テキストが入力されていません。終了します。")
+                sys.exit(1)
+
+            print("\n分析中...\n")
+            analysis = analyze_reference_reel(transcript)
+            print(analysis)
+
+            # 分析結果を保存
+            from datetime import date
+            output_dir = os.path.join(BASE_DIR, "output", "reference_analysis")
+            os.makedirs(output_dir, exist_ok=True)
+            datestamp = date.today().strftime("%Y%m%d")
+            import time as _time
+            output_path = os.path.join(output_dir, f"{datestamp}_analysis_{int(_time.time()) % 10000}.md")
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write(f"# 参考リール分析\n\n{analysis}")
+            subprocess.run(["open", "-a", "Obsidian", output_path])
+            print(f"\n保存先: {output_path}")
+
+            # 提案されたテーマで台本生成するか確認
+            ans = input("\n分析結果を元にトークリール台本を生成しますか？ (y/n): ").strip().lower()
+            if ans == "y":
+                topic = input("テーマを入力（提案から選ぶか自由入力）: ").strip()
+                if topic:
+                    final_script = _run_talk_reel_flow(topic)
+                    _offer_stories_threads(final_script, topic)
+
+        elif mode == "6":
             file_path = input("台本mdファイルのパスを入力：").strip()
             topic = input("テーマを入力：").strip()
             try:
