@@ -159,43 +159,38 @@ TBTはエルメス専門だから、
 
 
 TALK_REEL_FORMAT = """
-## 採用したテンプレートと理由
-テンプレート：②コールドリーディング＋解決策提示型 or ③コールドリーディング＋問題拡張型
-理由（なぜこのテーマにこの型が合うか）：
+## 採用したフックの型と理由
+型：
+理由（なぜこのターゲットに刺さるか）：
 
 ---
 
 ## 台本
 
-【タイトル/問題提起｜冒頭3秒・画面テロップ＋口頭】
+【フック｜0〜3秒】
 （常識破壊＋ネガティブ訴求で止める。例：「○○は絶対ダメです」「○○してる人は損してます」）
-（タイトルテロップと口頭の一言をセットで書く）
 
 
-【コールドリーディング】
+【コールドリーディング｜3〜10秒】
 （ターゲットが心の中で思っていることをそのまま代弁する）
 （心情・悩み・口癖を言葉にして「これ自分のことだ」と思わせる）
 
 
-【答えを言わない結論】
+【答えを言わない結論｜10〜15秒】
 （抽象度の高い結論を述べる。具体的な答えはまだ言わない）
 （例：「大事なのは○○なんです」「みんなここを間違えてる」）
 （※具体的に言いすぎると離脱する。曖昧さが続きを読ませる）
 
 
-【具体的内容】（テンプレート②は解決策へ / テンプレート③は問題拡張へ）
-（業界の裏側からの意外な事実・根拠・問題の深掘り）
+【具体的内容｜15〜40秒】
+（業界の裏側からの意外な事実・根拠）
 （田畑さんの権威性を自然に入れる）
 （1センテンス = 2〜3秒。短い文を積み重ねるテンポ感）
 
 
-【解決策 or 問題拡張の着地】
-（②型：TBTならどう解決できるか。知識として語る）
-（③型：問題を放置した場合の悪い未来を提示してから着地）
-
-
-【まとめ｜簡潔に】
-（フォロー誘導か次回への引きで締める。LINE誘導・高価買取訴求は一切不要）
+【解決策・まとめ｜40〜55秒】
+（TBTならどう解決できるかを知識として語る）
+（フォロー誘導か「気になる方は〜」程度の柔らかい締めで終わる）
 
 ---
 
@@ -240,17 +235,14 @@ def generate_talk_reel_script(topic: str) -> str:
 - 本編：25〜35秒
 - CTA：5〜8秒（固定文を使用）
 
-■ テンプレートの選択
-以下の2つのテンプレートからテーマに合う方を選ぶこと：
-- **テンプレート②**（コールドリーディング＋解決策提示型）：悩みを代弁して解決策を示す
-- **テンプレート③**（コールドリーディング＋問題拡張型）：悩みを代弁して問題の深刻さを広げてから着地
-
-■ タイトル/問題提起（冒頭3秒 / 画面テロップ＋口頭一言）
-- 常識破壊＋ネガティブ訴求で止める
-- ターゲット（38〜52歳の女性エルメスオーナー）が許容できるギリギリまで攻める
-- 例：「そのエルメス、安く売らされてますよ」「査定額を信じてる人、ちょっと待って」
-- タイトルテロップ（画面表示）と口頭の一言をセットで作る
-- ※否定・警告・意外性型を優先。弱いフックは絶対NG
+■ フック設計（冒頭3秒）
+- 以下の5型から最も刺さる型を選び、その選択理由を記載すること
+  1. 【禁止・警告型】「○○してる人は損してます」
+  2. 【数字・実績型】「○年で○万円変わった理由」
+  3. 【意外性型】「業者が教えない〜」
+  4. 【ベネフィット型】「○○するだけで〜」
+  5. 【問いかけ型】「○○したことありますか？」
+- 否定系・警告型を優先推奨
 - ターゲットの「今いる場所」の心理を直撃すること：
   - 「問い合わせたいけど営業が怖い」「査定したら売らされそう」「損してるかもしれないけど確かめる方法がわからない」
   - この不安・恐怖を1行でえぐり出す
@@ -293,7 +285,7 @@ def generate_talk_reel_script(topic: str) -> str:
 - 高価買取訴求は一切入れない
 - CTA は「安心感を与えること」が最優先。以下の型を使う：
   - 「営業は来ません。知識だけ持って帰ってください」スタイル
-  - 「LINEで聞くだけでも大丈夫です」「売らなくていいです、相場だけ教えます」
+  - 「LINEで聞くだけでも大丈夫です」「売らなくていい、相場だけ教えます」
   - 視聴者が感じている「問い合わせへの恐怖」を取り除くことがゴール
   - ただし直接的なLINE誘導文（「写真3枚を送るだけで〜」）は絶対に使わない
 - 「次の投稿では〜」のような予告は入れない（投稿計画はその都度変わるため）
@@ -493,7 +485,6 @@ def evaluate_talk_reel(script: str, topic: str) -> tuple[str, float]:
 
     result = response.content[0].text
 
-    # 合計点を抽出
     import re
     match = re.search(r"合計：([\d.]+)/15", result)
     score = float(match.group(1)) if match else 0.0
@@ -562,9 +553,188 @@ def generate_improved_script(topic: str, prev_script: str, evaluation: str) -> s
     return response.content[0].text
 
 
-def save_script(content: str, name: str, is_talk: bool = False, improved: bool = False) -> str:
+def generate_stories(script: str, topic: str, chars: int = 500) -> str:
+    """リール台本からInstagramストーリーズ投稿テキストを生成する（eduGate Chapter4準拠）"""
+    brief = load_brief()
+
+    system_prompt = f"""
+# Role（役割）
+あなたはInstagramのストーリーズ投稿作成のエキスパートです。
+TBT（エルメス専門買取・販売）のリール台本を元に、ストーリーズ用の投稿テキストを作成します。
+
+# ストーリーズの真の役割
+ストーリーズは「ファン化」や「マネタイズ」のためにあるのではありません。
+真の役割は「リールのリーチ先の整合性を担保するためのシグナル集め」です。
+目的：「リール動画を、興味関心の高い層に正確に届けるための土台作り」
+
+# 作成の原則
+1. リールの台本をベースに作成する（同じリサーチ・同じターゲットで効率的に作れる）
+2. リールの核心部分を抽出し、重要なポイントを残す
+3. 指定文字数（{chars}文字程度）に調整する（冗長な表現を削除）
+4. ストーリーズ向けに読みやすく、視覚的に分かりやすい構成にする
+5. 閲覧率を維持することが最優先
+
+# NG行動（絶対にやらない）
+- 外部リンクを貼る（インスタ側からリーチを抑制される仕様）
+- 集客活動をガンガンする（閲覧率が下がる）
+- ファン化目的で使う（ストーリーズは「照準合わせの場所」）
+
+---
+{brief}
+---
+""".strip()
+
+    prompt = f"""
+以下のリール台本を元に、TBTのInstagramストーリーズ用の投稿テキストを作成してください。
+
+テーマ：{topic}
+目標文字数：{chars}文字程度
+目的：シグナル集め・リーチ精度向上
+
+---
+【リール台本】
+{script}
+---
+
+【作成の流れ】
+1. リールの核心部分を抽出（重要なポイントを残す）
+2. {chars}文字程度に調整（冗長な表現を削除）
+3. ストーリーズ向けに最適化（読みやすさ・視覚的に分かりやすい構成）
+4. ターゲット（38〜52歳の女性エルメスオーナー）に刺さる内容にする
+5. リンクは貼らない・集客活動は控える・一貫した発信を維持
+
+以下の形式で出力してください：
+
+---
+## ストーリーズ投稿テキスト（{chars}文字）
+
+（作成したテキスト）
+
+---
+## 作成のポイント
+- 抽出した核心部分：
+- 文字数調整のポイント：
+- ストーリーズ向け最適化：
+
+## 投稿メモ
+- 推奨投稿タイミング：（リール投稿後のタイミングなど）
+- 注意事項：（NG行動の確認）
+""".strip()
+
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=1500,
+        system=system_prompt,
+        messages=[{"role": "user", "content": prompt}]
+    )
+
+    return response.content[0].text
+
+
+def generate_threads(script: str, topic: str) -> str:
+    """リール台本からThreadsのツリー型投稿を生成する（eduGate Chapter6準拠）"""
+    brief = load_brief()
+
+    system_prompt = f"""
+# Role（役割）
+あなたはInstagram連動のThreads投稿作成のエキスパートです。
+TBT（エルメス専門買取・販売）のリール台本を元に、Threads用ツリー型投稿を作成します。
+
+# Threadsの正しい役割
+Threadsの目的は「インスタへの回遊を起こすこと」です。
+Threads投稿が伸びると → インスタのフォロワーが同時に増える・インスタへの回遊が起きる。
+Threads単体でマネタイズしようとする運用は絶対NG。
+
+# NG運用（絶対にやらない）
+- 短文戦略（内容がなく短いだけ）
+- 大量ポスト（1日3投稿以上。初速が分散する）
+- Threads単体でのマネタイズ・集客
+- 外部リンクをポスト内に貼る（ポストの評価が下がる）
+
+# ツリー型投稿の構造
+【1段目：フック（1〜4行の短文）】
+- 「極論」と「否定」で振り切る
+- 例：「バーキンを査定に出すのは間違いです」「エルメス買取、やめました」
+- 1段目だけで「なんだ？」と思わせ、2段目をタップさせる
+
+【2段目以降：内容（リール台本の8割を流用）】
+- 2段目に続きを書くことで「詳細クリック」という高評価が入り、投稿がリーチしやすくなる
+- リール台本の内容を文章形式に変換（話し言葉のまま活かす）
+- 最後にインスタへサラッと誘導（「詳しくはインスタで話しています」程度）
+- プロフィールのリンクへ誘導する一文を自然に入れる
+
+---
+{brief}
+---
+""".strip()
+
+    prompt = f"""
+以下のリール台本を元に、TBTのThreadsツリー型投稿を作成してください。
+
+テーマ：{topic}
+
+---
+【リール台本】
+{script}
+---
+
+【1段目の要件】
+- 1〜4行の短文
+- 「極論・否定」系のフックで振り切る
+- 読んだ瞬間「続きが気になる」状態を作る
+- TBTのターゲット（38〜52歳の女性エルメスオーナー）の心理に直撃する
+- 具体的な情報は絶対に書かない（曖昧さが2段目をタップさせる）
+
+【2段目以降の要件】
+- リール台本の内容を文章形式に変換（8割流用）
+- テンポよく読めるよう短い文を積み重ねる（1文 = 20〜30文字目安）
+- 最後にインスタへのサラッとした誘導を入れる
+- リンクは本文中に貼らない（プロフィール誘導のみ）
+
+以下の形式で出力してください：
+
+---
+## 1段目（フック）
+
+（1〜4行）
+
+---
+
+## 2段目以降（内容）
+
+（本文）
+
+（インスタへの誘導）
+
+---
+## 投稿メモ
+- フックの狙い：
+- インスタ誘導の意図：
+- 投稿タイミング：（リールと合わせた推奨タイミング）
+""".strip()
+
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=1500,
+        system=system_prompt,
+        messages=[{"role": "user", "content": prompt}]
+    )
+
+    return response.content[0].text
+
+
+def save_script(content: str, name: str, content_type: str = "telop", improved: bool = False) -> str:
+    """
+    content_type: "telop" | "talk" | "stories" | "threads"
+    """
     from datetime import date
-    subdir = "talk_reels" if is_talk else "telop_reels"
+    subdir_map = {
+        "telop": "telop_reels",
+        "talk": "talk_reels",
+        "stories": "stories",
+        "threads": "threads",
+    }
+    subdir = subdir_map.get(content_type, "telop_reels")
     if improved:
         subdir = os.path.join(subdir, "improved")
     output_dir = os.path.join(BASE_DIR, "output", subdir)
@@ -576,6 +746,59 @@ def save_script(content: str, name: str, is_talk: bool = False, improved: bool =
         f.write(content)
     subprocess.run(["open", "-a", "Obsidian", output_path])
     return output_path
+
+
+def _run_talk_reel_flow(topic: str):
+    """トークリール生成→評価→改善ループを実行し、最終台本を返す"""
+    print(f"\nトークリール台本を生成中...（テーマ：{topic}）\n")
+    script = generate_talk_reel_script(topic)
+    print(script)
+    path = save_script(script, f"talk_{topic}", content_type="talk")
+    print(f"\n保存先: {path}")
+
+    print("\n台本を評価中...\n")
+    evaluation, score = evaluate_talk_reel(script, topic)
+    print(evaluation)
+
+    final_script = script
+    if score < 12.0:
+        ans = input(f"\n合計 {score}/15 — 改善して再生成しますか？ (y/n): ").strip().lower()
+        if ans == "y":
+            print("\n改善版を生成中...\n")
+            improved = generate_improved_script(topic, script, evaluation)
+            print(improved)
+            path = save_script(improved, f"talk_{topic}", content_type="talk", improved=True)
+            print(f"\n保存先: {path}")
+            final_script = improved
+    else:
+        print(f"\n合計 {score}/15 — 品質基準クリア。")
+
+    return final_script
+
+
+def _offer_stories_threads(script: str, topic: str):
+    """ストーリーズ・Threads生成をオファーし、選択に応じて生成する"""
+    print("\n" + "─" * 40)
+    ans = input("このトークリールを元にストーリーズ・Threads投稿を生成しますか？ (y/n): ").strip().lower()
+    if ans != "y":
+        return
+
+    # ストーリーズ
+    chars_input = input("ストーリーズの文字数 (300/500/1000) [デフォルト500]: ").strip()
+    chars = int(chars_input) if chars_input in ("300", "500", "1000") else 500
+
+    print(f"\nストーリーズを生成中...（{chars}文字）\n")
+    stories_content = generate_stories(script, topic, chars)
+    print(stories_content)
+    stories_path = save_script(stories_content, f"stories_{topic}", content_type="stories")
+    print(f"\n保存先: {stories_path}")
+
+    # Threads
+    print("\nThreadsツリー投稿を生成中...\n")
+    threads_content = generate_threads(script, topic)
+    print(threads_content)
+    threads_path = save_script(threads_content, f"threads_{topic}", content_type="threads")
+    print(f"\n保存先: {threads_path}")
 
 
 def main():
@@ -590,27 +813,8 @@ def main():
             print("テーマが入力されていません。終了します。")
             sys.exit(1)
 
-        print(f"\nトークリール台本を生成中...（テーマ：{topic}）\n")
-        script = generate_talk_reel_script(topic)
-        print(script)
-        path = save_script(script, f"talk_{topic}", is_talk=True)
-        print(f"\n保存先: {path}")
-
-        # 自動評価
-        print("\n台本を評価中...\n")
-        evaluation, score = evaluate_talk_reel(script, topic)
-        print(evaluation)
-
-        if score < 12.0:
-            ans = input(f"\n合計 {score}/15 — 改善して再生成しますか？ (y/n): ").strip().lower()
-            if ans == "y":
-                print("\n改善版を生成中...\n")
-                improved = generate_improved_script(topic, script, evaluation)
-                print(improved)
-                path = save_script(improved, f"talk_{topic}", is_talk=True, improved=True)
-                print(f"\n保存先: {path}")
-        else:
-            print(f"\n合計 {score}/15 — 品質基準クリア。")
+        final_script = _run_talk_reel_flow(topic)
+        _offer_stories_threads(final_script, topic)
 
     # --product フラグで商品モード
     elif "--product" in sys.argv:
@@ -626,7 +830,7 @@ def main():
         print(f"\n2本分の台本を生成中...（商品：{product}）\n")
         _, scripts = generate_two_scripts(product)
         print(scripts)
-        path = save_script(scripts, f"{product}_2本セット")
+        path = save_script(scripts, f"{product}_2本セット", content_type="telop")
         print(f"\n保存先: {path}")
 
     # 引数あり → テーマ指定モード（テロップリール）
@@ -635,7 +839,7 @@ def main():
         print(f"\n台本を生成中...（テーマ：{topic}）\n")
         script = generate_script(topic)
         print(script)
-        path = save_script(script, topic)
+        path = save_script(script, topic, content_type="telop")
         print(f"\n保存先: {path}")
 
     # 引数なし → 対話形式でモード選択
@@ -645,9 +849,43 @@ def main():
         print("  2: 商品指定で2本同時生成（テロップリール）")
         print("  3: トークリール（社長が読み上げる台本）← 生成後に自動評価・改善ループあり")
         print("  4: 台本を評価する（ファイルパスを指定）")
-        mode = input("モード (1/2/3/4): ").strip()
+        print("  5: ストーリーズ投稿生成（既存台本ファイルから転用）")
+        print("  6: Threadsツリー投稿生成（既存台本ファイルから転用）")
+        mode = input("モード (1/2/3/4/5/6): ").strip()
 
-        if mode == "4":
+        if mode == "6":
+            file_path = input("台本mdファイルのパスを入力：").strip()
+            topic = input("テーマを入力：").strip()
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    script = f.read()
+            except FileNotFoundError:
+                print(f"ファイルが見つかりません: {file_path}")
+                sys.exit(1)
+            print("\nThreadsツリー投稿を生成中...\n")
+            threads_content = generate_threads(script, topic)
+            print(threads_content)
+            path = save_script(threads_content, f"threads_{topic}", content_type="threads")
+            print(f"\n保存先: {path}")
+
+        elif mode == "5":
+            file_path = input("台本mdファイルのパスを入力：").strip()
+            topic = input("テーマを入力：").strip()
+            chars_input = input("文字数 (300/500/1000) [デフォルト500]: ").strip()
+            chars = int(chars_input) if chars_input in ("300", "500", "1000") else 500
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    script = f.read()
+            except FileNotFoundError:
+                print(f"ファイルが見つかりません: {file_path}")
+                sys.exit(1)
+            print(f"\nストーリーズを生成中...（{chars}文字）\n")
+            stories_content = generate_stories(script, topic, chars)
+            print(stories_content)
+            path = save_script(stories_content, f"stories_{topic}", content_type="stories")
+            print(f"\n保存先: {path}")
+
+        elif mode == "4":
             file_path = input("評価するmdファイルのパスを入力：").strip()
             topic = input("テーマを入力：").strip()
             try:
@@ -666,10 +904,12 @@ def main():
                     print("\n改善版を生成中...\n")
                     improved = generate_improved_script(topic, script, evaluation)
                     print(improved)
-                    path = save_script(improved, f"talk_{topic}", is_talk=True, improved=True)
+                    path = save_script(improved, f"talk_{topic}", content_type="talk", improved=True)
                     print(f"\n保存先: {path}")
+                    _offer_stories_threads(improved, topic)
             else:
                 print(f"\n合計 {score}/15 — 品質基準クリア。")
+                _offer_stories_threads(script, topic)
 
         elif mode == "3":
             print("テーマを入力してください（例：バーキンの査定で損する理由）")
@@ -677,27 +917,8 @@ def main():
             if not topic:
                 print("テーマが入力されていません。終了します。")
                 sys.exit(1)
-            print(f"\nトークリール台本を生成中...（テーマ：{topic}）\n")
-            script = generate_talk_reel_script(topic)
-            print(script)
-            path = save_script(script, f"talk_{topic}", is_talk=True)
-            print(f"\n保存先: {path}")
-
-            # 自動評価
-            print("\n台本を評価中...\n")
-            evaluation, score = evaluate_talk_reel(script, topic)
-            print(evaluation)
-
-            if score < 12.0:
-                ans = input(f"\n合計 {score}/15 — 改善して再生成しますか？ (y/n): ").strip().lower()
-                if ans == "y":
-                    print("\n改善版を生成中...\n")
-                    improved = generate_improved_script(topic, script, evaluation)
-                    print(improved)
-                    path = save_script(improved, f"talk_{topic}", is_talk=True, improved=True)
-                    print(f"\n保存先: {path}")
-            else:
-                print(f"\n合計 {score}/15 — 品質基準クリア。")
+            final_script = _run_talk_reel_flow(topic)
+            _offer_stories_threads(final_script, topic)
 
         elif mode == "2":
             print()
@@ -714,12 +935,11 @@ def main():
             if not product:
                 print("商品情報が入力されていません。終了します。")
                 sys.exit(1)
-            # ファイル名用に1行に圧縮
             product_name = " ".join(product.splitlines())[:40]
             print(f"\n2本分の台本を生成中...\n")
             _, scripts = generate_two_scripts(product)
             print(scripts)
-            path = save_script(scripts, f"{product_name}_2本セット")
+            path = save_script(scripts, f"{product_name}_2本セット", content_type="telop")
             print(f"\n保存先: {path}")
         else:
             print("テーマを入力してください（例：バーキンの相場、本物と偽物の見分け方）")
@@ -730,7 +950,7 @@ def main():
             print(f"\n台本を生成中...（テーマ：{topic}）\n")
             script = generate_script(topic)
             print(script)
-            path = save_script(script, topic)
+            path = save_script(script, topic, content_type="telop")
             print(f"\n保存先: {path}")
 
 

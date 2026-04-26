@@ -1,6 +1,26 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
+
+# データ・ログ
 *.db
+results.csv
+persona_insights.json
+
+# 環境・OS
 .env
 .DS_Store
+
+# 不要なスクリプト・旧ツール群
+researcher/
+generate_narration_audio.py
+generate_subtitles.py
+analyze_persona_insights.py
+manage_results.py
+auto_commit.sh
+video_director.py
+spec.md
+
+# video_directorの生成物
+output/video_direction/
