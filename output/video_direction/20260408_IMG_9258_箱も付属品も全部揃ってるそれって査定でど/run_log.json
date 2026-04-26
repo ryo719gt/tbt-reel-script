@@ -1,0 +1,21 @@
+{
+  "run_id": "8c9173ad",
+  "source_video": "/Users/ryon/Library/CloudStorage/OneDrive-R.N.WEB/FKWEB/株式会社TBT様/SNS/2026/ピコタンPM トリヨンクレマンス ノワール SV金具 K刻印/IMG_9258.mov",
+  "success": true,
+  "needs_human_review": false,
+  "review_reasons": [],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど",
+  "files_generated": [
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/observations.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/emotional_design.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/script_skeleton.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/master_lines.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/narrative_plan.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/narration_script.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/narration_cues.csv",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/timeline_notes.md",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/caption.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_箱も付属品も全部揃ってるそれって査定でど/strategy.json"
+  ],
+  "error": null
+}

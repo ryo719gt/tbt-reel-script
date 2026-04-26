@@ -1,0 +1,22 @@
+{
+  "run_id": "3f82f81d",
+  "source_video": "IMG_9258.mov",
+  "success": true,
+  "needs_human_review": false,
+  "review_reasons": [],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま",
+  "files_generated": [
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/observations.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/emotional_design.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/script_skeleton.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/master_lines.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/narrative_plan.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/narration_script.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/narration_cues.csv",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/timeline_notes.md",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/caption.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/strategy.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_売ると決めてから動こうそう思ったまま止ま/research_context.json"
+  ],
+  "error": null
+}

@@ -1,0 +1,249 @@
+[
+  {
+    "cue_id": 1,
+    "section_name": "hook",
+    "purpose": "hook",
+    "master_line": "付属品も揃っている、本体もきれい——それでも動けないままになっていませんか？",
+    "narration_line": "付属品も揃って、本体もきれい。",
+    "text_line": "付属品も揃って、本体もきれい。",
+    "estimated_duration": 2.7,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "付属品も揃って",
+      "本体もきれい。"
+    ]
+  },
+  {
+    "cue_id": 2,
+    "section_name": "hook",
+    "purpose": "hook",
+    "master_line": "売ると決めてから動こうと思ったまま、そのままになっていませんか？",
+    "narration_line": "売ると決めてから、と思ったまま——そのままになっていませんか？",
+    "text_line": "「売ると決めてから」のまま、止まっていませんか？",
+    "estimated_duration": 5.6,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "「売ると決めてから」",
+      "そのまま止まって",
+      "いませんか？"
+    ]
+  },
+  {
+    "cue_id": 3,
+    "section_name": "pain",
+    "purpose": "pain",
+    "master_line": "知識がないまま相談するのが気まずくて、踏み出せない",
+    "narration_line": "知識もないのに相談するのは、気まずいかも。",
+    "text_line": "「知識もないのに相談は…」",
+    "estimated_duration": 3.8,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "知識もないのに",
+      "相談は気まずい…"
+    ]
+  },
+  {
+    "cue_id": 4,
+    "section_name": "pain",
+    "purpose": "pain",
+    "master_line": "売る気があるのかないのかはっきりしない状態で問い合わせるのは失礼かもしれない",
+    "narration_line": "まだ迷っているのに、連絡するのは失礼かも。",
+    "text_line": "「まだ迷っているのに連絡していいの？」",
+    "estimated_duration": 3.8,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "まだ迷っているのに",
+      "連絡していいの？"
+    ]
+  },
+  {
+    "cue_id": 5,
+    "section_name": "shift",
+    "purpose": "shift",
+    "master_line": "売ると決めてから動くものとは限らない——相場だけ確認したい段階でもいい",
+    "narration_line": "でも、売ると決めてから動くものとは限りません。",
+    "text_line": "「売ると決めてから」が前提ではないかもしれない。",
+    "estimated_duration": 4.2,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "「売ると決めてから」",
+      "が前提とは",
+      "限らない。"
+    ]
+  },
+  {
+    "cue_id": 6,
+    "section_name": "shift",
+    "purpose": "shift",
+    "master_line": "相場だけ確認したいという段階での問い合わせを前提として受け付けているお店もある",
+    "narration_line": "相場だけ知りたい、その段階から受け付けているお店もあります。",
+    "text_line": "相場確認だけでも、受け付けているお店があります。",
+    "estimated_duration": 5.5,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "medium",
+    "display_units": [
+      "相場確認だけでも",
+      "受け付けている",
+      "お店があります。"
+    ]
+  },
+  {
+    "cue_id": 7,
+    "section_name": "proof",
+    "purpose": "proof",
+    "master_line": "ピコタンの付属品がすべて揃った状態——箱・保存袋・カデナと鍵・薄紙",
+    "narration_line": "このピコタン、箱と保存袋、カデナに鍵、薄紙まで。",
+    "text_line": "箱・保存袋・カデナ・鍵・薄紙——すべて揃っています。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "箱・保存袋",
+      "カデナ・鍵・薄紙",
+      "すべて揃っています。"
+    ]
+  },
+  {
+    "cue_id": 8,
+    "section_name": "proof",
+    "purpose": "proof",
+    "master_line": "革の質感も均一で、ステッチも整っている——査定ではひとつひとつを見ていく",
+    "narration_line": "革の質感は均一で、ステッチもきれいです。",
+    "text_line": "革の質感・ステッチ、状態も良好です。",
+    "estimated_duration": 3.6,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "革の質感・ステッチ",
+      "状態も良好です。"
+    ]
+  },
+  {
+    "cue_id": 9,
+    "section_name": "proof",
+    "purpose": "proof",
+    "master_line": "エルメスの査定では、こうした付属品のひとつひとつを見ていく",
+    "narration_line": "エルメスの査定では、付属品のひとつひとつを見ていきます。",
+    "text_line": "付属品のひとつひとつが、査定で見られます。",
+    "estimated_duration": 5.1,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "medium",
+    "display_units": [
+      "付属品の",
+      "ひとつひとつが",
+      "査定で見られます。"
+    ]
+  },
+  {
+    "cue_id": 10,
+    "section_name": "benefit_bridge",
+    "purpose": "benefit_bridge",
+    "master_line": "付属品が揃っているから、自分の手元に「相場の数字」が初めて入ってくる",
+    "narration_line": "付属品がこれだけ揃っていると、相場の数字が見えてきます。",
+    "text_line": "付属品が揃っていると、相場の数字が手に入ります。",
+    "estimated_duration": 5.1,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "medium",
+    "display_units": [
+      "付属品が揃うと",
+      "相場の数字が",
+      "手に入ります。"
+    ]
+  },
+  {
+    "cue_id": 11,
+    "section_name": "benefit_bridge",
+    "purpose": "benefit_bridge",
+    "master_line": "売るかどうかは、その数字を見てから自分のペースで決められる",
+    "narration_line": "売るかどうかは、その数字を見てから決められます。",
+    "text_line": "売るかどうかは、数字を見てから。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売るかどうかは",
+      "数字を見てから。"
+    ]
+  },
+  {
+    "cue_id": 12,
+    "section_name": "relief",
+    "purpose": "relief",
+    "master_line": "査定に行かなくていい、売ると決めていなくていい、相場だけでもOK",
+    "narration_line": "査定に行かなくても、売ると決めていなくても、大丈夫です。",
+    "text_line": "査定に行かなくても。売ると決めていなくても。",
+    "estimated_duration": 5.1,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "査定に行かなくても。",
+      "売ると決めて",
+      "いなくても。"
+    ]
+  },
+  {
+    "cue_id": 13,
+    "section_name": "relief",
+    "purpose": "relief",
+    "master_line": "まず相場だけ知りたい——それだけで問い合わせていい",
+    "narration_line": "まず相場だけ知りたい、それだけで構いません。",
+    "text_line": "「相場だけ知りたい」それだけで大丈夫です。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "「相場だけ知りたい」",
+      "それだけで大丈夫。"
+    ]
+  },
+  {
+    "cue_id": 14,
+    "section_name": "cta",
+    "purpose": "cta",
+    "master_line": "バッグの写真3枚をLINEで送るだけで相場の確認ができる",
+    "narration_line": "LINEにバッグの写真を3枚。それだけで相場の確認ができます。",
+    "text_line": "写真3枚をLINEで → 相場確認できます",
+    "estimated_duration": 5.6,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "写真3枚をLINEで",
+      "相場確認できます。"
+    ]
+  },
+  {
+    "cue_id": 15,
+    "section_name": "cta",
+    "purpose": "cta",
+    "master_line": "決断はその後、自分のペースで",
+    "narration_line": "決断はその後、ご自身のペースで。",
+    "text_line": "決断は、その後でいい。",
+    "estimated_duration": 2.9,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "決断は",
+      "そのあと、自分のペースで。"
+    ]
+  }
+]

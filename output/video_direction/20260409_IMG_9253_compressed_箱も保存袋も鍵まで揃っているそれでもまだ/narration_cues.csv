@@ -1,0 +1,12 @@
+﻿cue_id,section_name,line_text,estimated_duration_sec,source_file,source_timecode,evidence_confidence,display_units
+1,hook_1,「売ろう」そう決めたはずなのに。,2.9,,--:--,unconfirmed,「売ろう」|そう決めたはずなのに。
+2,hook_2,ピコタンが、まだそのままになっていませんか。,4.0,,--:--,unconfirmed,ピコタン、|まだそのままに？
+3,pain_1,売ると決めてから相談しよう。,2.5,,--:--,unconfirmed,売ると決めてから、|相談しよう。
+4,pain_2,そう思うから、ずっと後回しになってしまう。,3.8,,--:--,unconfirmed,そう思うから、|後回しになってしまう。
+5,shift,相場を確認することと、売ると決めることは別のことです。,4.9,,--:--,unconfirmed,相場確認 ≠|売ると決めるこ
+6,proof_1,付属品が揃ったピコタンの状態を、丁寧に見ています。,4.5,,--:--,high,状態を、|丁寧に見ています。
+7,proof_2,箱や保存袋、カデナや鍵も、ひとつひとつ見ています。,4.5,,--:--,high,箱・保存袋・|カデナ・鍵も確認
+8,benefit_bridge_1,今の相場感と、バッグの状態を整理できます。,3.8,,--:--,unconfirmed,相場感と状態を、|整理できます。
+9,benefit_bridge_2,売るかどうかを、自分のペースで決められます。,4.0,,--:--,unconfirmed,売るかどうか、|自分のペースで。
+10,relief,まだ決めていなくても、大丈夫です。,3.1,,--:--,unconfirmed,まだ決めていなくて、|大丈夫。
+11,cta,写真3枚から、LINEで相場確認だけでもどうぞ。,4.4,,--:--,unconfirmed,写真3枚〜|LINEで相場確認だけで

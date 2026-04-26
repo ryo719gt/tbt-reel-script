@@ -1,0 +1,129 @@
+{
+  "run_id": "f47abfdb",
+  "source_video": "0406_final.mp4",
+  "brand": "HERMES",
+  "product_category": "バッグ",
+  "product_family_guess": "ケリー",
+  "product_family_confidence": 1.0,
+  "visible_materials": [
+    "レザー",
+    "ゴールドトーンメタル",
+    "布"
+  ],
+  "visible_color": "ブラック",
+  "visible_hardware": "ゴールド",
+  "visible_damage": [],
+  "damage_confidence": 1.0,
+  "accessories_detected": [
+    "オレンジボックス",
+    "保存袋",
+    "カデナ",
+    "鍵",
+    "クロシェット",
+    "ショルダーストラップ"
+  ],
+  "accessories_missing_or_unconfirmed": [],
+  "angles_present": [
+    "top",
+    "front",
+    "side",
+    "bottom",
+    "hardware",
+    "accessories"
+  ],
+  "angles_missing": [
+    "inside",
+    "back"
+  ],
+  "text_detected_on_screen": [
+    "カデナの保護フィルム、",
+    "まだついてますか？",
+    "ケリーの付属品と状態が",
+    "査定額に影響する",
+    "理由をお話しします",
+    "オレンジボックスに",
+    "収められた黒のケリー",
+    "箱を開けると…",
+    "保存袋もしっかり残存",
+    "カデナと鍵も付属",
+    "ストラップも確認します",
+    "特に注目したいのが",
+    "カデナの保護フィルムです",
+    "フィルムが残った状態は",
+    "未使用に近い証拠",
+    "専門店が確認する",
+    "重要なポイントのひとつ",
+    "大切に保管された",
+    "ケリーだからこそ",
+    "その状態をきちんと",
+    "評価してもらえる場所へ",
+    "LINEで写真を送るだけ",
+    "相場感だけ知りたい方も",
+    "お気軽にご相談を",
+    "手放すなら専門店へ",
+    "すぐに確認できます",
+    "まずは写真を送ってみて",
+    "査定は無料・LINE完結",
+    "TBTにご相談ください",
+    "プロフィールのLINEから",
+    "いつでもご連絡を",
+    "お待ちしています。",
+    "HERMES PARIS MADE IN FRANCE",
+    "TBT (田畑) | エルメス査定",
+    "投稿",
+    "フォロワー",
+    "フォロー中",
+    "リール動画の作成者",
+    "【エルメスを売る前に見る】",
+    "「なぜその価格か」まで、実例で公開。",
+    "大切な名品に、納得感のある手放し方を。",
+    "古物商許可 | 最短即日 | 原則24h返信",
+    "続きを読む",
+    "フォロー",
+    "メッセージ",
+    "ピコタンMM 2025"
+  ],
+  "speech_summary": "",
+  "notable_timestamps": [
+    {
+      "timecode": "00:00",
+      "description": "エルメスのオレンジボックスとテキスト「カデナの保護フィルム、まだついてますか？」"
+    },
+    {
+      "timecode": "00:05",
+      "description": "箱が開かれ、保存袋に包まれたケリーバッグが見える。"
+    },
+    {
+      "timecode": "00:10",
+      "description": "保存袋が取り出され、カデナと鍵が確認される。"
+    },
+    {
+      "timecode": "00:16",
+      "description": "ストラップが確認される。"
+    },
+    {
+      "timecode": "00:20",
+      "description": "カデナの保護フィルムがクローズアップされる。"
+    },
+    {
+      "timecode": "00:26",
+      "description": "バッグ本体の金具の保護フィルムが確認される。"
+    },
+    {
+      "timecode": "00:30",
+      "description": "バッグ全体が様々な角度から示される。"
+    },
+    {
+      "timecode": "00:34",
+      "description": "バッグの底鋲の保護フィルムが確認される。"
+    },
+    {
+      "timecode": "00:48",
+      "description": "Instagramのプロフィール画面が表示され、LINEでの査定を促す。"
+    }
+  ],
+  "uncertainty_flags": [],
+  "evidence_notes": "エルメスのケリーバッグ。金具部分（カデナ、ターンロック、底鋲）に保護フィルムが残っており、未使用に近い状態であることが示唆されている。オレンジボックス、保存袋、カデナ、鍵、クロシェット、ショルダーストラップといった付属品が全て揃っている。",
+  "overall_visual_quality": "good",
+  "needs_human_review": false
+}

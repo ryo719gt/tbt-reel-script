@@ -1,0 +1,80 @@
+{
+  "run_id": "3f82f81d",
+  "source_video": "IMG_9258.mov",
+  "brand": "HERMÈS",
+  "product_category": "バッグ",
+  "product_family_guess": "ピコタン",
+  "product_family_confidence": 1.0,
+  "visible_materials": [
+    "レザー",
+    "布"
+  ],
+  "visible_color": "ブラック",
+  "visible_hardware": "シルバー",
+  "visible_damage": [],
+  "damage_confidence": 1.0,
+  "accessories_detected": [
+    "箱",
+    "保存袋",
+    "鍵",
+    "カデナ"
+  ],
+  "accessories_missing_or_unconfirmed": [],
+  "angles_present": [
+    "正面",
+    "側面",
+    "背面",
+    "底面",
+    "内側",
+    "金具",
+    "ロゴ"
+  ],
+  "angles_missing": [],
+  "text_detected_on_screen": [
+    "HERMÈS",
+    "HERMÈS PARIS MADE IN FRANCE"
+  ],
+  "speech_summary": "BGMが流れている",
+  "notable_timestamps": [
+    {
+      "timecode": "00:00",
+      "description": "エルメスの箱が映る"
+    },
+    {
+      "timecode": "00:04",
+      "description": "箱の蓋が開けられる"
+    },
+    {
+      "timecode": "00:28",
+      "description": "保存袋に入ったバッグが取り出される"
+    },
+    {
+      "timecode": "00:35",
+      "description": "保存袋のロゴのクローズアップ"
+    },
+    {
+      "timecode": "00:49",
+      "description": "バッグが保存袋から取り出される"
+    },
+    {
+      "timecode": "01:03",
+      "description": "バッグの全体像（正面）"
+    },
+    {
+      "timecode": "01:23",
+      "description": "バッグの底面の金具のクローズアップ"
+    },
+    {
+      "timecode": "01:52",
+      "description": "バッグの内側のロゴのクローズアップ"
+    },
+    {
+      "timecode": "02:39",
+      "description": "カデナと鍵が取り出される"
+    }
+  ],
+  "uncertainty_flags": [],
+  "evidence_notes": "バッグは新品同様に見える。レザーの質感、ステッチ、金具の状態は良好。",
+  "overall_visual_quality": "good",
+  "needs_human_review": false
+}

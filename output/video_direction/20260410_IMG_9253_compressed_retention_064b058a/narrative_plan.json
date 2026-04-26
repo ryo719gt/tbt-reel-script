@@ -1,0 +1,163 @@
+{
+  "selected_hook": "箱も、保存袋も、カデナも——全部揃っているのに、なぜまだ動けていないんだろう。",
+  "addressed_anxiety": "付属品が揃っていて状態も良いのに、査定＝売ると決めることだという思い込みが行動を止めている。相場を確認するだけでよい、という再解釈を静かに促す。",
+  "content_category": "査定ポイント型",
+  "narrative_formula_type": "anxiety_shift_reassure_cta",
+  "recommended_duration_range": {
+    "min_sec": 40,
+    "max_sec": 50
+  },
+  "sections": [
+    {
+      "section_id": 1,
+      "section_name": "フック（問い）",
+      "goal": "「全部揃っているのになぜ動けないのか」という逆説的な問いで視聴を止め、自分ごととして引き込む",
+      "start_hint": "0秒",
+      "end_hint": "5〜7秒",
+      "narration_summary": "箱も、保存袋も、カデナも——全部揃っているのに、なぜまだ動けていないんだろう。",
+      "visual_evidence_required": [
+        "エルメスのオレンジ箱が映っているシーン",
+        "保存袋（ライトベージュ）が映っているシーン",
+        "カデナと鍵が映っているシーン"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:07",
+          "description": "箱の開封開始シーン"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:31",
+          "description": "保存袋（ライトベージュ）の露出"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "02:10",
+          "description": "カデナと鍵の露出"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 7
+    },
+    {
+      "section_id": 2,
+      "section_name": "答え（映像による事実提示）",
+      "goal": "付属品・状態の良さを映像で静かに示し、「揃っている」という事実を視覚的に確認させる",
+      "start_hint": "7秒",
+      "end_hint": "22〜25秒",
+      "narration_summary": "箱、保存袋、カデナ、鍵。ピコタンに付属するものが、ここに揃っている。バッグの状態も、目立った傷は見当たらない。ステッチも、革の表情も、きれいなまま。",
+      "visual_evidence_required": [
+        "バッグ全体の正面・側面映像",
+        "底面のブランド刻印映像",
+        "内側のロゴクローズアップ",
+        "ステッチの均一性が確認できる映像",
+        "カデナ・鍵・クロシェットのセット映像"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:55",
+          "description": "バッグ本体の露出シーン"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "01:11",
+          "description": "バッグ底面の刻印表示"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "01:36",
+          "description": "内側の確認シーン"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "01:41",
+          "description": "内側のHERMÈS PARISロゴのクローズアップ"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "02:10",
+          "description": "カデナ・鍵・クロシェットの確認シーン"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 16
+    },
+    {
+      "section_id": 3,
+      "section_name": "視点転換（再解釈）",
+      "goal": "「全部揃っているから動けない」という逆説の正体——査定＝決断という思い込みを静かに崩す",
+      "start_hint": "25秒",
+      "end_hint": "36〜38秒",
+      "narration_summary": "揃っているから動けない、ということがある。相場を聞きに行く＝売ると決めること、というわけじゃない。金額を知るのは、決断の前の話。",
+      "visual_evidence_required": [
+        "付属品一式（箱・保存袋・カデナ・鍵）が画面内に収まる俯瞰または並列映像",
+        "バッグ本体の落ち着いた映像（トープカラーが見える角度）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:31",
+          "description": "保存袋と箱が共に映るシーン（付属品の揃い感を示す）"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:55",
+          "description": "バッグ本体の落ち着いた露出シーン"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 12
+    },
+    {
+      "section_id": 4,
+      "section_name": "余韻（open_loop）",
+      "goal": "答えを出し切らず、「自分のことかもしれない」という問いを視聴者の中に残す",
+      "start_hint": "38秒",
+      "end_hint": "44〜46秒",
+      "narration_summary": "決める前に、まず知る。そのために使う場所が、あってもいい——そう思いませんか。",
+      "visual_evidence_required": [
+        "バッグが静かに置かれている俯瞰映像またはクロシェット・鍵のアップ",
+        "箱が閉まった状態での静止シーン（あれば）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "02:10",
+          "description": "カデナと鍵が静かに映るシーン（余韻に合う落ち着いた映像）"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:55",
+          "description": "バッグが静かに置かれた露出シーン"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 7
+    }
+  ],
+  "differentiation_note": "TBTは箱・保存袋・カデナ・鍵など付属品の有無と状態を個別に丁寧に確認している。価格を出すだけでなく「なぜその金額か」の根拠まで伝えるため、視聴者が相場の意味を自分で理解できる。",
+  "forbidden_claim_check": [],
+  "caption": "箱も、保存袋も、カデナも揃っている。それでも、なんとなく動けていない。\n\nそういうことって、あるんだと思います。\n\n「売ると決めてから相談するもの」という感覚が、どこかにあるのかもしれません。でも、相場を確認することと、売ると決めることは、別の話です。\n\nまず金額だけ知りたい——それだけで、問い合わせていただいて大丈夫です。\n\n写真3枚から、LINEでご連絡ください。その場で売らなくても、もちろん構いません。",
+  "emotional_design": {
+    "target_inner_conflict": "付属品も状態も揃っているのに、なぜか査定に踏み出せていない自分への、静かな違和感。",
+    "hidden_fear": "売ると決めていないのに問い合わせて、押しつけられるか、断りにくい空気になると思われたくない。",
+    "embarrassment_trigger": "まだ売るか決めていない段階で相談するのは、相手の時間を無駄にしているような気がして気まずい。",
+    "belief_to_shift": "査定を依頼するのは、売ると決めてからすること のはず。",
+    "shift_statement": "付属品が揃っていて状態が良い、その事実は映像でも確認できる。でも「揃っているから動けない」というのは、査定＝決断という思い込みから来ているかもしれない。相場を知ることは、決断の前の情報収集に過ぎない。",
+    "emotional_hook_type": "先延ばし型",
+    "reassurance_angle": "相場を聞くことは、売ると決めることではない。知ってから、自分のペースで判断すればいい。",
+    "cta_barrier_reduction": "まだ売るか決めていなくても大丈夫 / 写真3枚をLINEに送るだけでOK",
+    "benefit_design": {
+      "primary_benefit": "自分のバッグの相場感と、その根拠が分かる。",
+      "benefit_angle": "判断整理",
+      "why_now": "箱・保存袋・カデナ・鍵が現時点で揃っており、目立った傷もない状態だからこそ、今の時点で相場を確認しておくことが、判断の選択肢を広げることになる。",
+      "decision_value": "売るかどうかを、相場を知った上で自分のペースで決められる。"
+    }
+  },
+  "content_mode": "retention",
+  "narrative_arc": "question_reveal_reframe",
+  "ending_type": "open_loop",
+  "mode_rationale": "箱・保存袋・カデナ・鍵と付属品がほぼ揃い、状態も良好という映像事実がある。「全部揃っているのになぜ動けないのか」という逆説的な問いを立てることで、思い込みを静かに崩す意外性のある展開が作れる。retention モードの question_reveal_reframe が最も自然に機能する素材。"
+}

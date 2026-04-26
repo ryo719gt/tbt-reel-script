@@ -1,0 +1,151 @@
+{
+  "selected_hook": "箱も、保存袋も、カデナも、鍵まで揃っている。それでも、まだ「いつか確認しよう」のままですか。",
+  "addressed_anxiety": "付属品が揃っているのに、査定に踏み出せていない。「売ると決めてから相談するもの」という思い込みが行動を止めている。",
+  "content_category": "査定ポイント型",
+  "narrative_formula_type": "anxiety_shift_reassure_cta",
+  "recommended_duration_range": {
+    "min_sec": 40,
+    "max_sec": 50
+  },
+  "sections": [
+    {
+      "section_id": 1,
+      "section_name": "フック（先延ばしの静かな自覚）",
+      "goal": "付属品が揃っているのにまだ動けていない視聴者自身の状況に気づかせ、視聴を止める",
+      "start_hint": "0秒",
+      "end_hint": "5〜6秒",
+      "narration_summary": "箱も保存袋もカデナも鍵も揃っている。それでもまだ「いつか」のままになっていませんか。",
+      "visual_evidence_required": [
+        "箱・保存袋・カデナ・鍵が画面内に揃って見えるカット（全体俯瞰）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "02:10",
+          "description": "カデナと鍵の露出。付属品の存在を視覚的に確認できる"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:31",
+          "description": "保存袋の露出。箱とともに付属品の揃いを示すカット"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 6
+    },
+    {
+      "section_id": 2,
+      "section_name": "観察（付属品ひとつひとつを丁寧に確認する映像事実）",
+      "goal": "箱・保存袋・カデナ・鍵・クロシェットをひとつずつ確認している様子を見せ、「丁寧に見ている」ことを証拠として提示する",
+      "start_hint": "6秒",
+      "end_hint": "22〜24秒",
+      "narration_summary": "エルメスのオレンジの箱、ライトベージュの保存袋、カデナ、鍵番号163の鍵、クロシェット。付属品の有無と状態を、ひとつずつ確認しています。バッグ本体は底面の刻印、内側のブランドロゴ、ステッチの均一さまで丁寧に見ています。",
+      "visual_evidence_required": [
+        "箱（オレンジ）のカット",
+        "保存袋（ライトベージュ）のカット",
+        "カデナ・鍵（鍵番号163）のクローズアップ",
+        "バッグ底面の刻印（HERMÈS PARIS MADE IN FRANCE）",
+        "内側ブランドロゴのクローズアップ",
+        "ステッチのクローズアップ"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:07",
+          "description": "箱の開封開始。エルメスのオレンジの箱が確認できる"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:31",
+          "description": "保存袋の露出。ライトベージュ/オフホワイトの保存袋"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "02:10",
+          "description": "カデナと鍵の露出。鍵番号163が確認できる"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "01:11",
+          "description": "バッグ底面の刻印（HERMÈS PARIS MADE IN FRANCE）"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "01:41",
+          "description": "内側ブランドロゴのクローズアップ（HERMÈS PARIS）"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 18
+    },
+    {
+      "section_id": 3,
+      "section_name": "意味づけ（付属品が揃っていることの持ち主への示唆）",
+      "goal": "観察した事実が「あなたのバッグにとって何を意味するか」を翻訳し、相場確認の判断材料として提示する",
+      "start_hint": "24秒",
+      "end_hint": "36〜38秒",
+      "narration_summary": "付属品が揃っている状態は、査定で確認できる情報が最も多い状態です。何がどう評価されるかの理由まで、お伝えできます。金額だけでなく、その根拠を知った上で、どうするかを決めていただけます。",
+      "visual_evidence_required": [
+        "付属品一式とバッグ本体が揃って見える俯瞰カット",
+        "状態良好なバッグ表面・ステッチのカット"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:55",
+          "description": "バッグの露出。トープカラーのピコタン本体が確認できる"
+        },
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "02:10",
+          "description": "カデナと鍵。付属品フルセットの最終確認として使用"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 12
+    },
+    {
+      "section_id": 4,
+      "section_name": "安心感とソフトCTA",
+      "goal": "「売ると決めなくても相談できる」「写真3枚からでいい」という低ハードルを伝え、LINEへの問い合わせを自然に促す",
+      "start_hint": "36秒",
+      "end_hint": "46〜48秒",
+      "narration_summary": "まだ売るかどうか決めていなくて大丈夫です。相場だけ確認したいという相談も、LINEで受け付けています。写真3枚から送っていただければ十分です。",
+      "visual_evidence_required": [
+        "バッグ全体が画面に収まる落ち着いたカット（動きなし・安定感）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9253_compressed.mp4",
+          "timecode": "00:55",
+          "description": "バッグの露出。落ち着いた静止に近いカットとして使用"
+        }
+      ],
+      "cta_role": true,
+      "estimated_duration_sec": 10
+    }
+  ],
+  "differentiation_note": "金額の提示だけでなく、付属品ひとつひとつが状態確認にどう関わるかを映像で見せることで、「なぜその金額か」の理由まで持ち主が理解できる透明性を示す。",
+  "forbidden_claim_check": [],
+  "caption": "箱、保存袋、カデナ、鍵、クロシェット。ピコタンとともに揃っているもの全部を、ひとつずつ確認しています。\n\n付属品があると何が違うのか。状態がきれいだと何が分かるのか。その理由まで含めてお伝えするのが、TBTの査定です。\n\n売るかどうかは、相場を見てから決めていただければ十分です。写真3枚からLINEでご相談いただけます。",
+  "emotional_design": {
+    "target_inner_conflict": "付属品も状態もちゃんと揃っているのに、まだ「相談するのは売ると決めてから」と自分に言い聞かせて動けていない。",
+    "hidden_fear": "売ると決めていないのに査定を頼んで、業者に「やっぱり売らない」と言いにくい雰囲気にされたくない。",
+    "embarrassment_trigger": "「相場だけ聞きたい」は相手の時間を無駄にすることになると感じていて、踏み出す一言が出てこない。",
+    "belief_to_shift": "査定を頼むのは、売ると心を決めてからすること のはず。",
+    "shift_statement": "TBTでは「相場だけ確認したい」というご相談も受け付けています。どうするかはその後、ご自身のペースで決めていただければ十分です。",
+    "emotional_hook_type": "先延ばし型",
+    "reassurance_angle": "相場を確認することは、売ると決めることではなく、自分で判断するための情報を持つことです。",
+    "cta_barrier_reduction": "まだ売ると決めていなくても大丈夫 / 写真3枚をLINEに送るだけでOK",
+    "benefit_design": {
+      "primary_benefit": "付属品の状態・有無が査定にどう影響するかが分かり、売るかどうかを自分のペースで判断できる。",
+      "benefit_angle": "判断整理",
+      "why_now": "箱・保存袋・カデナ・鍵・クロシェットが今すべて揃っている状態は、査定で確認できる情報が最も多い状態であり、この状態のうちに相場を把握しておくことが判断の精度を上げる。",
+      "decision_value": "「今売るべきか・待つべきか・どこに出すか」を、相場と状態の情報をもとに自分で決められる。"
+    }
+  },
+  "content_mode": "insight",
+  "narrative_arc": "observation_implication_decision",
+  "ending_type": "soft_cta",
+  "mode_rationale": "箱・保存袋・カデナ・鍵・クロシェットと付属品が揃い、目立った傷なし・ステッチ均一という映像事実がある。この状態の意味（付属品フルセットが査定上どう効くか）を「あなたのバッグへの示唆」として翻訳できる素材であり、insight モードが適切。雑学にならないよう「だからあなたが何を判断できるか」に着地させる。"
+}

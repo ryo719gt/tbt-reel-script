@@ -1,0 +1,22 @@
+{
+  "run_id": "3bba347d",
+  "source_video": "IMG_9253_compressed.mp4",
+  "success": true,
+  "needs_human_review": false,
+  "review_reasons": [],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま",
+  "files_generated": [
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/observations.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/emotional_design.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/script_skeleton.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/master_lines.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/narrative_plan.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/narration_script.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/narration_cues.csv",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/timeline_notes.md",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/caption.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/strategy.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260409_IMG_9253_compressed_そろそろ手放そうと思って箱ごとしまったま/research_context.json"
+  ],
+  "error": null
+}

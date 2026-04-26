@@ -1,0 +1,86 @@
+{
+  "run_id": "064b058a",
+  "source_video": "IMG_9253_compressed.mp4",
+  "brand": "Hermès",
+  "product_category": "バッグ",
+  "product_family_guess": "ピコタン",
+  "product_family_confidence": 0.9,
+  "visible_materials": [
+    "レザー",
+    "ファブリック",
+    "メタル",
+    "プラスチック"
+  ],
+  "visible_color": "バッグ: トープ/グレーがかったブラウン、内側: オリーブがかったブラウン、ステッチ: ホワイト、箱: オレンジ、保存袋/ポーチ: ライトベージュ/オフホワイト",
+  "visible_hardware": "シルバー",
+  "visible_damage": [],
+  "damage_confidence": 1.0,
+  "accessories_detected": [
+    "箱",
+    "保存袋",
+    "カデナ",
+    "鍵",
+    "クロシェット"
+  ],
+  "accessories_missing_or_unconfirmed": [
+    "ケアブックレット",
+    "レシート"
+  ],
+  "angles_present": [
+    "front",
+    "side",
+    "bottom",
+    "inside",
+    "hardware",
+    "stitching",
+    "label"
+  ],
+  "angles_missing": [
+    "back"
+  ],
+  "text_detected_on_screen": [
+    "HERMÈS PARIS",
+    "HERMÈS PARIS MADE IN FRANCE",
+    "H (ロゴ)",
+    "163 (鍵の番号)"
+  ],
+  "speech_summary": "",
+  "notable_timestamps": [
+    {
+      "timecode": "00:07",
+      "description": "箱の開封開始"
+    },
+    {
+      "timecode": "00:31",
+      "description": "保存袋の露出"
+    },
+    {
+      "timecode": "00:55",
+      "description": "バッグの露出"
+    },
+    {
+      "timecode": "01:11",
+      "description": "バッグの底面表示"
+    },
+    {
+      "timecode": "01:36",
+      "description": "バッグの内側表示"
+    },
+    {
+      "timecode": "01:41",
+      "description": "内側のブランドロゴのクローズアップ"
+    },
+    {
+      "timecode": "02:10",
+      "description": "カデナと鍵の露出"
+    }
+  ],
+  "uncertainty_flags": [
+    "正確なトープ/グレーがかったブラウンの革の色名（エルメスの色名）",
+    "バッグの正確なサイズ（ピコタン18/22）",
+    "内側の素材（スエードまたは類似の革仕上げ）"
+  ],
+  "evidence_notes": "バッグは非常に良好な状態に見え、目立った傷や汚れはありません。ステッチはきれいで均一です。革のグレインは一貫しています。付属の箱、保存袋、カデナ、鍵はすべて本物のエルメス製品と一致しています。",
+  "overall_visual_quality": "good",
+  "needs_human_review": true
+}

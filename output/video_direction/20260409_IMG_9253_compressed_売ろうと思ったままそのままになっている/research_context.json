@@ -1,0 +1,107 @@
+{
+  "run_id": "ecf40545",
+  "source_videos": [
+    "/tmp/IMG_9253_compressed.mp4"
+  ],
+  "primary_source_video": "/tmp/IMG_9253_compressed.mp4",
+  "notes": "",
+  "observation": {
+    "run_id": "ecf40545",
+    "source_video": "IMG_9253_compressed.mp4",
+    "brand": "Hermès",
+    "product_category": "バッグ",
+    "product_family_guess": "ピコタン",
+    "product_family_confidence": 0.9,
+    "visible_materials": [
+      "レザー",
+      "ファブリック",
+      "メタル"
+    ],
+    "visible_color": "トープ",
+    "visible_hardware": "シルバー",
+    "visible_damage": [],
+    "damage_confidence": 1.0,
+    "accessories_detected": [
+      "箱",
+      "保存袋",
+      "カデナ",
+      "鍵"
+    ],
+    "accessories_missing_or_unconfirmed": [
+      "ショルダーストラップ"
+    ],
+    "angles_present": [
+      "front",
+      "side",
+      "bottom",
+      "top",
+      "inside",
+      "corners",
+      "hardware",
+      "label"
+    ],
+    "angles_missing": [
+      "back"
+    ],
+    "text_detected_on_screen": [
+      "HERMÈS PARIS",
+      "HERMÈS PARIS MADE IN FRANCE",
+      "163"
+    ],
+    "speech_summary": "",
+    "notable_timestamps": [
+      {
+        "timecode": "00:00",
+        "description": "エルメスのオレンジ色の箱が映る"
+      },
+      {
+        "timecode": "00:07",
+        "description": "手袋をはめた手が箱を開ける"
+      },
+      {
+        "timecode": "00:13",
+        "description": "白い薄紙が見える"
+      },
+      {
+        "timecode": "00:21",
+        "description": "保存袋が見える"
+      },
+      {
+        "timecode": "00:31",
+        "description": "保存袋を取り出す"
+      },
+      {
+        "timecode": "00:37",
+        "description": "保存袋のロゴのクローズアップ"
+      },
+      {
+        "timecode": "00:55",
+        "description": "バッグが箱から取り出される"
+      },
+      {
+        "timecode": "01:11",
+        "description": "バッグの底面と底鋲のクローズアップ"
+      },
+      {
+        "timecode": "01:39",
+        "description": "バッグの内側と刻印のクローズアップ"
+      },
+      {
+        "timecode": "02:10",
+        "description": "カデナと鍵が入った小さな保存袋を取り出す"
+      },
+      {
+        "timecode": "02:16",
+        "description": "カデナと鍵のクローズアップ"
+      }
+    ],
+    "uncertainty_flags": [
+      "バッグの正確なモデルサイズは不明"
+    ],
+    "evidence_notes": "バッグは全体的に良好な状態に見え、目立った傷や汚れは見られない。金具もきれいです。内側のライニングはスエードのような質感で、色はオリーブグリーンまたはダークブラウンに見える。ハンドルコバは赤茶色。",
+    "overall_visual_quality": "good",
+    "needs_human_review": false
+  },
+  "market_context": null,
+  "persona_insights": null
+}

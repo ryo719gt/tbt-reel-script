@@ -1,0 +1,165 @@
+{
+  "selected_hook": "本体はきれいなのに、付属品が揃っていないから……そう思って、そのままになっていませんか？",
+  "addressed_anxiety": "付属品が完全に揃っていなくても査定に影響するのか分からず、相談を後回しにしている不安",
+  "content_category": "査定ポイント型",
+  "narrative_formula_type": "anxiety_shift_reassure_cta",
+  "recommended_duration_range": {
+    "min_sec": 50,
+    "max_sec": 65
+  },
+  "sections": [
+    {
+      "section_id": 1,
+      "section_name": "フック（視聴者の内的葛藤を静かに問いかける）",
+      "goal": "「自分のことだ」と感じさせてスクロールを止める",
+      "start_hint": "0秒",
+      "end_hint": "4〜5秒",
+      "narration_summary": "本体はきれいなのに、付属品が完全でないから……そのままにしていませんか？という問いかけで視聴者の葛藤を代弁する",
+      "visual_evidence_required": [
+        "箱・保存袋・バッグ本体が一緒に映っている開封冒頭のシーン"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "00:02",
+          "description": "開封開始。箱とバッグが初めて画面に現れる"
+        },
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "00:03",
+          "description": "箱からバッグが初めて現れる瞬間"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 5
+    },
+    {
+      "section_id": 2,
+      "section_name": "事実提示（付属品の確認プロセスを映像で見せる）",
+      "goal": "付属品が揃っているかどうかを専門店がひとつずつ確認することを可視化し、「うちの状態でも見てもらえるかも」と思わせる",
+      "start_hint": "5秒",
+      "end_hint": "25〜28秒",
+      "narration_summary": "査定では本体の状態だけでなく、箱・保存袋・ロック・鍵など手元にあるものをひとつずつ確認しています——という事実をナレーションで伝えながら、各付属品のクローズアップ映像を重ねる",
+      "visual_evidence_required": [
+        "保存袋のロゴクローズアップ",
+        "ロックと鍵のクローズアップ",
+        "バッグ本体の全体像（傷なし状態の確認）",
+        "金具部分のクローズアップ（光沢あり）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "00:29",
+          "description": "保存袋からバッグを取り出す"
+        },
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "00:30",
+          "description": "保存袋のロゴのクローズアップ"
+        },
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "02:38",
+          "description": "ロックと鍵のクローズアップ"
+        },
+        {
+          "source_file": "IMG_9267.mov",
+          "timecode": "00:17",
+          "description": "金具部分のクローズアップ"
+        },
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "01:03",
+          "description": "バッグ本体の全体像"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 22
+    },
+    {
+      "section_id": 3,
+      "section_name": "意味づけ（本体状態が査定の土台になることを伝える）",
+      "goal": "本体がきれいであることの価値を静かに示し、「この状態なら確認してみる価値があるかも」という気持ちに誘導する",
+      "start_hint": "28秒",
+      "end_hint": "40〜42秒",
+      "narration_summary": "革の状態・ステッチ・金具の光沢など、本体の細部が査定で見られているポイントであることを、映像の事実に沿って静かに伝える",
+      "visual_evidence_required": [
+        "革の質感クローズアップ（ステッチが均一に見えるシーン）",
+        "内部ロゴのクローズアップ",
+        "底面金具のクローズアップ"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "01:50",
+          "description": "バッグ内部のロゴのクローズアップ"
+        },
+        {
+          "source_file": "IMG_9258.mov",
+          "timecode": "01:22",
+          "description": "バッグ底面の金具のクローズアップ"
+        },
+        {
+          "source_file": "IMG_9267.mov",
+          "timecode": "00:09",
+          "description": "バッグの正面がはっきりと見える"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 13
+    },
+    {
+      "section_id": 4,
+      "section_name": "安心感（今すぐ売らなくても相談できる）",
+      "goal": "「売ると決めてから動かなければ」という思い込みを静かに崩し、問い合わせのハードルを下げる",
+      "start_hint": "42秒",
+      "end_hint": "50〜52秒",
+      "narration_summary": "売るかどうかはまだ決まっていなくても、まず相場を確認するだけでいいことを伝え、行動への心理的距離を縮める",
+      "visual_evidence_required": [
+        "バッグ全体と箱・付属品が画面内にゆったり収まるシーン"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9267.mov",
+          "timecode": "00:07",
+          "description": "バッグが箱から取り出される落ち着いたシーン"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 9
+    },
+    {
+      "section_id": 5,
+      "section_name": "CTA（写真3枚・相場確認だけでOK）",
+      "goal": "LINEへの問い合わせという具体的な次の行動を、最もハードルの低い形で提示する",
+      "start_hint": "52秒",
+      "end_hint": "60〜65秒",
+      "narration_summary": "写真3枚をLINEで送るだけで相場をお伝えできること、売るかどうかはその後でいいことを伝えてクローズする",
+      "visual_evidence_required": [
+        "バッグ正面など視覚的に落ち着いた締めのカット"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9267.mov",
+          "timecode": "00:09",
+          "description": "バッグの正面がはっきりと見える、視覚的に安定したカット"
+        }
+      ],
+      "cta_role": true,
+      "estimated_duration_sec": 10
+    }
+  ],
+  "differentiation_note": "エルメス専門店として、箱・保存袋・ロック・鍵・ミニポーチといった付属品の有無を映像で一点ずつ確認しながら査定するプロセスを可視化できる。本体状態（傷なし・ステッチ均一・金具光沢あり）の事実と付属品セットの組み合わせを専門的な目で評価することを示せる点がTBTの差別化軸。",
+  "forbidden_claim_check": [],
+  "caption": "本体がきれいでも、箱や付属品が揃っていないと査定が下がる——そう思ったまま、ずっと後回しにしていませんか？\n\n実際の査定では、本体の状態はもちろん、箱・保存袋・ロック・鍵など、手元にあるものをひとつひとつ確認しています。すべて完璧に揃っていなくても、査定ができなくなるわけではありません。\n\n今手元にあるものを写真3枚送っていただくだけで、まず相場をお伝えすることができます。売るかどうかは、それから考えていただいても大丈夫です。",
+  "emotional_design": {
+    "target_inner_conflict": "本体はきれいだと思っているのに、付属品が完全ではないことが気になって相談に踏み出せずにいる",
+    "hidden_fear": "知識のないまま相談して、軽く見られたくない／雑に扱われたくない",
+    "embarrassment_trigger": "付属品が揃っていないことを指摘されたり、査定額を提示されても断りにくい状況になることへの気まずさ",
+    "belief_to_shift": "本体がきれいなら付属品はあまり関係ないはず／逆に付属品が欠けていると査定できないはず",
+    "shift_statement": "映像では箱・保存袋・ロック・鍵・ミニポーチが確認できています。専門店では、手元にあるものをひとつずつ確認しながら査定を進めることができます",
+    "emotional_hook_type": "部分否定型",
+    "reassurance_angle": "揃っていないから相談できない、ではなく、今あるものから確認してもらえる",
+    "cta_barrier_reduction": "売ると決めていなくても大丈夫 / 写真3枚から相場だけ確認するだけでもOK"
+  }
+}

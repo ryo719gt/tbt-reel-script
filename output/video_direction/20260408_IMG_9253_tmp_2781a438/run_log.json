@@ -1,0 +1,12 @@
+{
+  "run_id": "2781a438",
+  "source_video": "IMG_9253.mov, IMG_9277.mov",
+  "success": false,
+  "needs_human_review": true,
+  "review_reasons": [
+    "Gemini観察失敗: [Errno 60] Operation timed out"
+  ],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9253_tmp_2781a438",
+  "files_generated": [],
+  "error": "[Errno 60] Operation timed out"
+}

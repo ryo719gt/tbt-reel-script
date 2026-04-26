@@ -1,0 +1,14 @@
+{
+  "run_id": "3414850e",
+  "source_video": "IMG_9258.mov, IMG_9267.mov",
+  "success": false,
+  "needs_human_review": true,
+  "review_reasons": [
+    "Claude構成生成失敗: ANTHROPIC_API_KEY が設定されていません。"
+  ],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_tmp_3414850e",
+  "files_generated": [
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_tmp_3414850e/review.md"
+  ],
+  "error": "ANTHROPIC_API_KEY が設定されていません。"
+}

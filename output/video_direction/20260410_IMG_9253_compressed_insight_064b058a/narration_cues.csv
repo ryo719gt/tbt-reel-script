@@ -1,0 +1,9 @@
+﻿cue_id,section_name,line_text,estimated_duration_sec,source_file,source_timecode,evidence_confidence,display_units
+1,hook,箱も、保存袋も、カデナも、鍵も、全部手元にある。,4.4,,--:--,high,全部、揃っているのに。
+2,hook,それでも、「もう少し経ってから」になっていませんか。,4.7,,--:--,medium,それでも、まだ|先延ばしに？
+3,market_fact,箱・保存袋・カデナ・鍵が揃ったピコタンは、,3.8,,--:--,high,付属品フルセット|ピコタンは、
+4,market_fact,付属品が欠けたものより、確認できる情報量が変わります。,4.9,,--:--,medium,確認できる情報量|変わります。
+5,owner_implication,つまり今のあなたのバッグは、,2.5,,--:--,high,今のこのバッグは、
+6,owner_implication,相場を確認するのに、最も材料が揃っている状態です。,4.5,,--:--,medium,判断材料|最も揃っている状態。
+7,judgment_material,売るかどうかは、相場を知ってから決めればいい。,4.2,,--:--,medium,売るかどうか|知ってから決めればいい。
+8,soft_cta,気になったら、写真3枚だけLINEで送ってみてもいいかもしれません。,6.2,,--:--,unconfirmed,相場確認だけ|LINEでどうぞ。

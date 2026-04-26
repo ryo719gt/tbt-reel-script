@@ -1,0 +1,22 @@
+{
+  "run_id": "e525082a",
+  "source_video": "IMG_9258.mov",
+  "success": true,
+  "needs_human_review": false,
+  "review_reasons": [],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている",
+  "files_generated": [
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/observations.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/emotional_design.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/script_skeleton.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/master_lines.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/narrative_plan.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/narration_script.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/narration_cues.csv",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/timeline_notes.md",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/caption.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/strategy.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_本体はきれいなのに箱や付属品が揃っている/research_context.json"
+  ],
+  "error": null
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "cue_id": 1,
+    "section_name": "hook",
+    "purpose": "hook",
+    "master_line": "また、棚に戻してしまった。",
+    "narration_line": "また、棚に戻してしまった。",
+    "text_line": "また、棚に戻してしまった。",
+    "estimated_duration": 2.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "medium",
+    "display_units": [
+      "また、棚",
+      "戻してしまった。"
+    ]
+  },
+  {
+    "cue_id": 2,
+    "section_name": "memory_scene",
+    "purpose": "memory_scene",
+    "master_line": "箱も保存袋も、カデナも鍵も、買ったときのまま全部揃っている。",
+    "narration_line": "箱も保存袋も、買ったときのまま揃っている。",
+    "text_line": "箱も保存袋も、買ったときのまま。",
+    "estimated_duration": 3.8,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "箱も保存袋も、",
+      "買ったときのまま。"
+    ]
+  },
+  {
+    "cue_id": 3,
+    "section_name": "memory_scene",
+    "purpose": "memory_scene",
+    "master_line": "カデナも鍵も。大切にしていた、ということだけは分かる。",
+    "narration_line": "カデナも鍵も。大切にしていたことだけは、分かる。",
+    "text_line": "大切にしていたことは、分かる。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "大切にしていたことは、",
+      "分かる。"
+    ]
+  },
+  {
+    "cue_id": 4,
+    "section_name": "hesitation",
+    "purpose": "hesitation",
+    "master_line": "まだ売るとは決めていない。決めていないのに連絡していいのか、という気持ちが手を止めている。",
+    "narration_line": "まだ売るとは、決めていない。決めていないのに連絡していいのか、それが手を止めていた。",
+    "text_line": "決めていないのに、連絡していいのか。",
+    "estimated_duration": 7.6,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "まだ売ると",
+      "決めていない。",
+      "決めていないの",
+      "連絡していいのか。"
+    ]
+  },
+  {
+    "cue_id": 5,
+    "section_name": "concrete_moment",
+    "purpose": "concrete_moment",
+    "master_line": "相場を聞くことは、売ると約束することじゃない——そう気づいたとき、少しだけ手が動いた気がした。",
+    "narration_line": "相場を聞くことは、売ると決めることじゃない。そう気づいたとき、少し手が動いた気がした。",
+    "text_line": "相場を聞くことと、売ると決めることは違う。",
+    "estimated_duration": 7.8,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "相場を聞くことと、",
+      "売ると決めることは違う。"
+    ]
+  },
+  {
+    "cue_id": 6,
+    "section_name": "aftertaste",
+    "purpose": "aftertaste",
+    "master_line": "このバッグをどうするかは、それから考えればいい。",
+    "narration_line": "このバッグをどうするかは、それから考えればいい。",
+    "text_line": "どうするかは、それから考えればいい。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "どうするかは、",
+      "それから考えればいい。"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "run_id": "f47abfdb",
+  "source_video": "0406_final.mp4",
+  "success": true,
+  "needs_human_review": false,
+  "review_reasons": [],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま",
+  "files_generated": [
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/observations.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/emotional_design.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/script_skeleton.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/master_lines.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/narrative_plan.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/narration_script.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/narration_cues.csv",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/timeline_notes.md",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/caption.txt",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/strategy.json",
+    "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_0406_final_大切に保管してきた付属品も全部あるでもま/research_context.json"
+  ],
+  "error": null
+}

@@ -1,0 +1,255 @@
+{
+  "run_id": "8c9173ad",
+  "source_videos": [
+    "/Users/ryon/Library/CloudStorage/OneDrive-R.N.WEB/FKWEB/株式会社TBT様/SNS/2026/ピコタンPM トリヨンクレマンス ノワール SV金具 K刻印/IMG_9258.mov",
+    "/Users/ryon/Library/CloudStorage/OneDrive-R.N.WEB/FKWEB/株式会社TBT様/SNS/2026/ピコタンPM トリヨンクレマンス ノワール SV金具 K刻印/IMG_9267.mov"
+  ],
+  "primary_source_video": "/Users/ryon/Library/CloudStorage/OneDrive-R.N.WEB/FKWEB/株式会社TBT様/SNS/2026/ピコタンPM トリヨンクレマンス ノワール SV金具 K刻印/IMG_9258.mov",
+  "notes": "ピコタンPM トリヨンクレマンス ノワール SV金具 K刻印",
+  "observation": {
+    "run_id": "8c9173ad",
+    "source_video": "IMG_9258.mov, IMG_9267.mov",
+    "brand": "Hermes",
+    "product_category": "バッグ",
+    "product_family_guess": "ピコタン",
+    "product_family_confidence": 1.0,
+    "visible_materials": [
+      "レザー",
+      "ファブリック",
+      "ティッシュペーパー",
+      "プラスチック",
+      "金属",
+      "段ボール"
+    ],
+    "visible_color": "ブラック (バッグ), オレンジ (箱), ホワイト (ティッシュペーパー), ライトベージュ (保存袋), ダークグリーン/ブルー (内装), シルバー (金具)",
+    "visible_hardware": "シルバー",
+    "visible_damage": [],
+    "damage_confidence": 1.0,
+    "accessories_detected": [
+      "オリジナルボックス",
+      "保存袋",
+      "ロック",
+      "鍵",
+      "ロック/鍵用小型ポーチ",
+      "ティッシュペーパー",
+      "箱"
+    ],
+    "accessories_missing_or_unconfirmed": [
+      "保存袋",
+      "カデナ",
+      "鍵",
+      "クロシェット",
+      "レシート"
+    ],
+    "angles_present": [
+      "開梱時の俯瞰",
+      "正面",
+      "背面",
+      "側面",
+      "底面",
+      "内側",
+      "革の質感のクローズアップ",
+      "ステッチのクローズアップ",
+      "金具のクローズアップ (底鋲、バックル、ロック、鍵)",
+      "ブランドロゴのクローズアップ",
+      "トップ",
+      "フロント",
+      "サイド",
+      "バック",
+      "ハンドル",
+      "金具"
+    ],
+    "angles_missing": [
+      "内側全体",
+      "角",
+      "刻印",
+      "ステッチ"
+    ],
+    "text_detected_on_screen": [
+      "HERMES",
+      "HERMES MADE IN FRANCE",
+      "Hロゴ (馬と馬車)",
+      "HERMÈS"
+    ],
+    "speech_summary": "日本語のラップミュージック",
+    "notable_timestamps": [
+      {
+        "timecode": "00:00",
+        "description": "開梱開始"
+      },
+      {
+        "timecode": "00:29",
+        "description": "保存袋の露出"
+      },
+      {
+        "timecode": "00:33",
+        "description": "保存袋のロゴのクローズアップ"
+      },
+      {
+        "timecode": "01:03",
+        "description": "保存袋からバッグを取り出す"
+      },
+      {
+        "timecode": "01:22",
+        "description": "バッグの底面と底鋲のクローズアップ"
+      },
+      {
+        "timecode": "01:35",
+        "description": "バッグの側面とステッチのクローズアップ"
+      },
+      {
+        "timecode": "01:50",
+        "description": "内側の「HERMES MADE IN FRANCE」スタンプ"
+      },
+      {
+        "timecode": "02:40",
+        "description": "ロックと鍵の露出"
+      },
+      {
+        "timecode": "00:01",
+        "description": "エルメスのロゴが入ったオレンジ色の箱"
+      },
+      {
+        "timecode": "00:04",
+        "description": "箱から黒いバッグを取り出す"
+      },
+      {
+        "timecode": "00:09",
+        "description": "バッグの前面と背面、シボ革の質感とバックルが見える"
+      },
+      {
+        "timecode": "00:14",
+        "description": "バッグの側面"
+      },
+      {
+        "timecode": "00:18",
+        "description": "バックルのクローズアップ"
+      }
+    ],
+    "uncertainty_flags": [],
+    "evidence_notes": "バッグは新品または新品同様の状態に見え、すべてのオリジナルパッケージと付属品が揃っている。革の質感は均一で、ステッチはきれいに仕上げられている。 / 動画で確認できる範囲では、バッグに目立った傷や汚れは見られない。金具は光沢がある。",
+    "overall_visual_quality": "good",
+    "needs_human_review": true
+  },
+  "market_context": {
+    "market_context": null,
+    "pricing_relevance": null,
+    "recommended_angle": null,
+    "angle_candidates": [],
+    "competitor_gap": null,
+    "usable_antithesis": null,
+    "benefit_candidates": [],
+    "audience_stuck_points": [],
+    "price_signals": [
+      {
+        "product_family": "エルメス バーキン",
+        "condition": "AB（良品）",
+        "accessories": "箱・保存袋・鍵・南京錠・クロワゼット付き",
+        "price_range_min": 1500000,
+        "price_range_max": 2200000,
+        "market_trend": "上昇傾向（2024年以降、円安・インバウンド需要で相場高止まり）",
+        "source": "社内買取実績（2025年Q4）",
+        "note": "付属品フルセットで+5〜10%の加算が多い"
+      },
+      {
+        "product_family": "エルメス バーキン",
+        "condition": "AB（良品）",
+        "accessories": "付属品なし（本体のみ）",
+        "price_range_min": 1300000,
+        "price_range_max": 1900000,
+        "market_trend": "上昇傾向",
+        "source": "社内買取実績（2025年Q4）",
+        "note": "付属品なしでも本体状態が良ければ高値維持"
+      },
+      {
+        "product_family": "エルメス ケリー",
+        "condition": "AB（良品）",
+        "accessories": "フルセット",
+        "price_range_min": 900000,
+        "price_range_max": 1600000,
+        "market_trend": "安定（内縫いの方が外縫いより相場高め）",
+        "source": "社内買取実績（2025年Q4）",
+        "note": null
+      }
+    ],
+    "competitor_patterns": [
+      {
+        "competitor_name": "大手買取チェーンA",
+        "hook_pattern": "「今すぐ高額査定！」「最大〇〇万円」の数字訴求",
+        "weakness": "数字だけで信頼感が薄い。押し売り感が強く、「どうせ値切られる」という不安を強化してしまっている",
+        "differentiator": "TBTは「まず相場感を知るだけでいい」という入口の低さと、付属品ひとつひとつを丁寧に見せる誠実さを訴求できる",
+        "note": "Instagram広告で「今週末限定」系の煽りが多い"
+      },
+      {
+        "competitor_name": "フリマアプリ（メルカリ等）",
+        "hook_pattern": "「自分で売ればもっと高く」という自己完結訴求",
+        "weakness": "写真撮影・梱包・値下げ交渉・偽物リスク対応など手間が多く、初心者が挫折しやすい",
+        "differentiator": "TBTは「写真3枚送るだけ」「売ると決めなくていい」という手間ゼロ・プレッシャーゼロの導線",
+        "note": null
+      },
+      {
+        "competitor_name": null,
+        "hook_pattern": "「鑑定士が直接査定」の権威性訴求",
+        "weakness": "専門店の敷居感をむしろ強化してしまう。「知識がない自分が行っていいのか」という不安につながる",
+        "differentiator": "TBTは専門知識なしでも気軽にLINEで始められることを前面に出す",
+        "note": "特定の店舗ではなく業界全般に見られるパターン"
+      }
+    ]
+  },
+  "persona_insights": {
+    "raw_audience_phrases": [],
+    "common_fears": [],
+    "belief_candidates": [],
+    "natural_hook_phrases": [],
+    "voice_snippets": [
+      {
+        "text": "箱がないと査定が大きく下がると思ってた",
+        "source": "LINE相談（2025年11月）",
+        "emotion": "思い込みによる諦め",
+        "stage": "awareness",
+        "product_family": "エルメス バーキン",
+        "date_collected": "2025-11"
+      },
+      {
+        "text": "知識がないまま行くのが気まずくて、ずっと後回しにしてる",
+        "source": "Instagram DM（2025年10月）",
+        "emotion": "自信のなさ・先延ばし",
+        "stage": "consideration",
+        "product_family": null,
+        "date_collected": "2025-10"
+      },
+      {
+        "text": "売ると決めてから相談するものだと思ってた",
+        "source": "LINE相談（2025年12月）",
+        "emotion": "思い込みによる行動抑制",
+        "stage": "awareness",
+        "product_family": null,
+        "date_collected": "2025-12"
+      },
+      {
+        "text": "査定に行ったら断りにくくなりそうで怖い",
+        "source": "Instagram コメント（2026年1月）",
+        "emotion": "圧迫感への恐れ",
+        "stage": "consideration",
+        "product_family": null,
+        "date_collected": "2026-01"
+      },
+      {
+        "text": "写真だけ送って相場を知れたら便利なのに",
+        "source": "SNS調査（2025年12月）",
+        "emotion": "ニーズ表明",
+        "stage": "consideration",
+        "product_family": null,
+        "date_collected": "2025-12"
+      },
+      {
+        "text": "まだ使えるけど出番がなくて、クローゼットに眠ってる",
+        "source": "Instagram DM（2026年2月）",
+        "emotion": "もったいなさ・行動できない焦り",
+        "stage": "awareness",
+        "product_family": "エルメス ケリー",
+        "date_collected": "2026-02"
+      }
+    ]
+  }
+}

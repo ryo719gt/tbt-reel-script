@@ -1,0 +1,180 @@
+[
+  {
+    "cue_id": 1,
+    "section_name": "hook_1",
+    "purpose": "hook",
+    "master_line": "「そのうち」のままになっている感覚の代弁",
+    "narration_line": "「売ろう」そう決めたはずなのに。",
+    "text_line": "「売ろう」そう決めたはずなのに。",
+    "estimated_duration": 2.9,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "「売ろう」",
+      "そう決めたはずなのに。"
+    ]
+  },
+  {
+    "cue_id": 2,
+    "section_name": "hook_2",
+    "purpose": "hook",
+    "master_line": "ピコタンが付属品込みでそのままになっている問いかけ",
+    "narration_line": "ピコタンが、まだそのままになっていませんか。",
+    "text_line": "ピコタン、まだそのままになっていませんか。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "ピコタン、",
+      "まだそのまま",
+      "なっていませんか。"
+    ]
+  },
+  {
+    "cue_id": 3,
+    "section_name": "pain_1",
+    "purpose": "pain",
+    "master_line": "売ると決めていないのに連絡するのが気まずい感情",
+    "narration_line": "売ると決めていないのに、連絡するのも気まずい。",
+    "text_line": "売ると決めていないのに連絡するのも気まずい。",
+    "estimated_duration": 4.2,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売ると決めていないの",
+      "連絡するのも気まずい。"
+    ]
+  },
+  {
+    "cue_id": 4,
+    "section_name": "pain_2",
+    "purpose": "pain",
+    "master_line": "なんとなく後回しにしてしまう感覚",
+    "narration_line": "そのまま、後回しにしてしまう。",
+    "text_line": "そのまま、後回しにしてしまう。",
+    "estimated_duration": 2.7,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "そのまま、",
+      "後回しにしてしまう。"
+    ]
+  },
+  {
+    "cue_id": 5,
+    "section_name": "shift",
+    "purpose": "shift",
+    "master_line": "相場確認と売却決定は別のことという認識の分離",
+    "narration_line": "相場を知ることと、売ると決めることは別のことです。",
+    "text_line": "相場確認と、売る決断は別のことです。",
+    "estimated_duration": 4.5,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "相場確認と、",
+      "売る決断は別のことです。"
+    ]
+  },
+  {
+    "cue_id": 6,
+    "section_name": "proof_1",
+    "purpose": "proof",
+    "master_line": "映像のピコタン本体の状態確認",
+    "narration_line": "映像のピコタンの状態を、一面ずつ見ています。",
+    "text_line": "本体の状態を、一面ずつ確認。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "本体の状態を、",
+      "一面ずつ確認。"
+    ]
+  },
+  {
+    "cue_id": 7,
+    "section_name": "proof_2",
+    "purpose": "proof",
+    "master_line": "箱・保存袋・カデナ・鍵の付属品確認",
+    "narration_line": "箱、保存袋、カデナと鍵も、ひとつずつ見ています。",
+    "text_line": "箱・保存袋・カデナ・鍵もひとつずつ確認。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "箱・保存袋・カデナ・鍵",
+      "ひとつずつ確認。"
+    ]
+  },
+  {
+    "cue_id": 8,
+    "section_name": "benefit_bridge_1",
+    "purpose": "benefit_bridge",
+    "master_line": "付属品が揃った状態の相場感が分かるというベネフィット",
+    "narration_line": "付属品が揃ったこの状態の相場感が分かります。",
+    "text_line": "付属品込みの相場感が分かります。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "付属品込み",
+      "相場感が分かります。"
+    ]
+  },
+  {
+    "cue_id": 9,
+    "section_name": "benefit_bridge_2",
+    "purpose": "benefit_bridge",
+    "master_line": "手元に置くか手放すかを自分のペースで決められる",
+    "narration_line": "手元に置くか手放すかを、自分で決められます。",
+    "text_line": "手元に置くか手放すか、自分のペースで決められる。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "手元に置くか手放すか、",
+      "自分のペースで決められる。"
+    ]
+  },
+  {
+    "cue_id": 10,
+    "section_name": "relief",
+    "purpose": "relief",
+    "master_line": "売ると決めなくても大丈夫という安心感",
+    "narration_line": "まだ決めていなくても、大丈夫です。",
+    "text_line": "まだ決めていなくても、大丈夫です。",
+    "estimated_duration": 3.1,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "まだ決めていなくても、",
+      "大丈夫です。"
+    ]
+  },
+  {
+    "cue_id": 11,
+    "section_name": "cta",
+    "purpose": "cta",
+    "master_line": "写真3枚からLINEで相場確認だけでもOKというCTA",
+    "narration_line": "写真3枚から、LINEで相場確認だけでもどうぞ。",
+    "text_line": "写真3枚から LINEで相場確認だけでもどうぞ",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "写真3枚から",
+      "LINE",
+      "相場確認だけでもどうぞ"
+    ]
+  }
+]

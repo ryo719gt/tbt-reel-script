@@ -1,0 +1,125 @@
+{
+  "run_id": "8c9173ad",
+  "source_video": "IMG_9258.mov, IMG_9267.mov",
+  "brand": "Hermes",
+  "product_category": "バッグ",
+  "product_family_guess": "ピコタン",
+  "product_family_confidence": 1.0,
+  "visible_materials": [
+    "レザー",
+    "ファブリック",
+    "ティッシュペーパー",
+    "プラスチック",
+    "金属",
+    "段ボール"
+  ],
+  "visible_color": "ブラック (バッグ), オレンジ (箱), ホワイト (ティッシュペーパー), ライトベージュ (保存袋), ダークグリーン/ブルー (内装), シルバー (金具)",
+  "visible_hardware": "シルバー",
+  "visible_damage": [],
+  "damage_confidence": 1.0,
+  "accessories_detected": [
+    "オリジナルボックス",
+    "保存袋",
+    "ロック",
+    "鍵",
+    "ロック/鍵用小型ポーチ",
+    "ティッシュペーパー",
+    "箱"
+  ],
+  "accessories_missing_or_unconfirmed": [
+    "保存袋",
+    "カデナ",
+    "鍵",
+    "クロシェット",
+    "レシート"
+  ],
+  "angles_present": [
+    "開梱時の俯瞰",
+    "正面",
+    "背面",
+    "側面",
+    "底面",
+    "内側",
+    "革の質感のクローズアップ",
+    "ステッチのクローズアップ",
+    "金具のクローズアップ (底鋲、バックル、ロック、鍵)",
+    "ブランドロゴのクローズアップ",
+    "トップ",
+    "フロント",
+    "サイド",
+    "バック",
+    "ハンドル",
+    "金具"
+  ],
+  "angles_missing": [
+    "内側全体",
+    "角",
+    "刻印",
+    "ステッチ"
+  ],
+  "text_detected_on_screen": [
+    "HERMES",
+    "HERMES MADE IN FRANCE",
+    "Hロゴ (馬と馬車)",
+    "HERMÈS"
+  ],
+  "speech_summary": "日本語のラップミュージック",
+  "notable_timestamps": [
+    {
+      "timecode": "00:00",
+      "description": "開梱開始"
+    },
+    {
+      "timecode": "00:29",
+      "description": "保存袋の露出"
+    },
+    {
+      "timecode": "00:33",
+      "description": "保存袋のロゴのクローズアップ"
+    },
+    {
+      "timecode": "01:03",
+      "description": "保存袋からバッグを取り出す"
+    },
+    {
+      "timecode": "01:22",
+      "description": "バッグの底面と底鋲のクローズアップ"
+    },
+    {
+      "timecode": "01:35",
+      "description": "バッグの側面とステッチのクローズアップ"
+    },
+    {
+      "timecode": "01:50",
+      "description": "内側の「HERMES MADE IN FRANCE」スタンプ"
+    },
+    {
+      "timecode": "02:40",
+      "description": "ロックと鍵の露出"
+    },
+    {
+      "timecode": "00:01",
+      "description": "エルメスのロゴが入ったオレンジ色の箱"
+    },
+    {
+      "timecode": "00:04",
+      "description": "箱から黒いバッグを取り出す"
+    },
+    {
+      "timecode": "00:09",
+      "description": "バッグの前面と背面、シボ革の質感とバックルが見える"
+    },
+    {
+      "timecode": "00:14",
+      "description": "バッグの側面"
+    },
+    {
+      "timecode": "00:18",
+      "description": "バックルのクローズアップ"
+    }
+  ],
+  "uncertainty_flags": [],
+  "evidence_notes": "バッグは新品または新品同様の状態に見え、すべてのオリジナルパッケージと付属品が揃っている。革の質感は均一で、ステッチはきれいに仕上げられている。 / 動画で確認できる範囲では、バッグに目立った傷や汚れは見られない。金具は光沢がある。",
+  "overall_visual_quality": "good",
+  "needs_human_review": true
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "69f7a860",
+  "source_video": "IMG_9258.mov, IMG_9267.mov",
+  "success": false,
+  "needs_human_review": true,
+  "review_reasons": [
+    "Gemini観察失敗: 2 validation errors for ResearchContext\nmarket_context\n  Input should be a valid dictionary or instance of MarketContext [type=model_type, input_value=MarketContext(market_cont...れるパターン')]), input_type=MarketContext]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type\npersona_insights\n  Input should be a valid dictionary or instance of PersonaInsights [type=model_type, input_value=PersonaInsights(raw_audie...e_collected='2026-02')]), input_type=PersonaInsights]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type"
+  ],
+  "output_dir": "/Users/ryon/dev/sandbox/scripts/tbt/output/20260408_IMG_9258_tmp_69f7a860",
+  "files_generated": [],
+  "error": "2 validation errors for ResearchContext\nmarket_context\n  Input should be a valid dictionary or instance of MarketContext [type=model_type, input_value=MarketContext(market_cont...れるパターン')]), input_type=MarketContext]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type\npersona_insights\n  Input should be a valid dictionary or instance of PersonaInsights [type=model_type, input_value=PersonaInsights(raw_audie...e_collected='2026-02')]), input_type=PersonaInsights]\n    For further information visit https://errors.pydantic.dev/2.12/v/model_type"
+}

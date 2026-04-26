@@ -1,0 +1,92 @@
+{
+  "run_id": "3bba347d",
+  "source_videos": [
+    "/tmp/IMG_9253_compressed.mp4"
+  ],
+  "primary_source_video": "/tmp/IMG_9253_compressed.mp4",
+  "notes": "",
+  "observation": {
+    "run_id": "3bba347d",
+    "source_video": "IMG_9253_compressed.mp4",
+    "brand": "Hermès",
+    "product_category": "バッグ",
+    "product_family_guess": "ピコタン",
+    "product_family_confidence": 0.9,
+    "visible_materials": [
+      "レザー",
+      "ファブリック",
+      "金属"
+    ],
+    "visible_color": "グレーがかったベージュ（エトゥープ系）",
+    "visible_hardware": "シルバー",
+    "visible_damage": [],
+    "damage_confidence": 1.0,
+    "accessories_detected": [
+      "箱",
+      "保存袋（大）",
+      "保存袋（小）",
+      "カデナ",
+      "鍵"
+    ],
+    "accessories_missing_or_unconfirmed": [
+      "クロシェット",
+      "ケアカード",
+      "レシート"
+    ],
+    "angles_present": [
+      "front",
+      "side",
+      "bottom",
+      "inside",
+      "corners",
+      "hardware",
+      "label"
+    ],
+    "angles_missing": [
+      "back",
+      "top（閉じた状態）"
+    ],
+    "text_detected_on_screen": [
+      "HERMÈS PARIS",
+      "HERMÈS PARIS MADE IN FRANCE",
+      "H",
+      "163"
+    ],
+    "speech_summary": "",
+    "notable_timestamps": [
+      {
+        "timecode": "00:07",
+        "description": "箱の蓋を開ける"
+      },
+      {
+        "timecode": "00:31",
+        "description": "大きな保存袋を取り出す"
+      },
+      {
+        "timecode": "00:55",
+        "description": "バッグ本体を披露"
+      },
+      {
+        "timecode": "01:11",
+        "description": "バッグの底と底鋲のクローズアップ"
+      },
+      {
+        "timecode": "01:39",
+        "description": "バッグ内部の刻印のクローズアップ"
+      },
+      {
+        "timecode": "02:15",
+        "description": "カデナと鍵を披露"
+      }
+    ],
+    "uncertainty_flags": [
+      "正確なレザーの種類（例：トリヨンクレマンス、トゴ）",
+      "正確なカラー名（例：エトゥープ）"
+    ],
+    "evidence_notes": "バッグ本体に目立った傷や汚れ、角擦れ、金具の傷は見られず、非常に良好な状態です。ステッチも均一で綺麗です。内側も綺麗です。付属品も全て揃っており、良好な状態です。",
+    "overall_visual_quality": "good",
+    "needs_human_review": false
+  },
+  "market_context": null,
+  "persona_insights": null
+}

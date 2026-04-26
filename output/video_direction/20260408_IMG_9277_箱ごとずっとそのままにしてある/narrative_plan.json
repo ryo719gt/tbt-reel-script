@@ -1,0 +1,169 @@
+{
+  "selected_hook": "箱ごと、ずっとそのままにしてある。",
+  "addressed_anxiety": "売ると決めていないのに問い合わせることへの気まずさ・「相場だけ聞くのは失礼かもしれない」という遠慮が行動を止めている状態",
+  "content_category": "不信解消型",
+  "narrative_formula_type": "anxiety_shift_reassure_cta",
+  "recommended_duration_range": {
+    "min_sec": 40,
+    "max_sec": 50
+  },
+  "sections": [
+    {
+      "section_id": 1,
+      "section_name": "フック（独り言）",
+      "goal": "「箱ごとそのままにしてある」という視聴者の内的状態を静かに代弁し、視聴を止める",
+      "start_hint": "0秒",
+      "end_hint": "4〜5秒",
+      "narration_summary": "箱ごと、ずっとそのままにしてある。",
+      "visual_evidence_required": [
+        "エルメスのオレンジ色の箱が映っているシーン（observations: 00:00）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:00",
+          "description": "エルメスのオレンジ色の箱が映っている"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 4
+    },
+    {
+      "section_id": 2,
+      "section_name": "共感（内的葛藤の代弁）",
+      "goal": "「売ると決めていないのに相談していいのか」という迷いを言語化し、視聴者が「それ、私のことだ」と感じる",
+      "start_hint": "4〜5秒",
+      "end_hint": "10〜12秒",
+      "narration_summary": "売るかどうか、まだ決めていない。だから相談していいものか、踏み出せないままでいる。",
+      "visual_evidence_required": [
+        "白い手袋をはめた手が箱を開けるシーン（observations: 00:06）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:06",
+          "description": "白い手袋をはめた手が箱を開ける"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 7
+    },
+    {
+      "section_id": 3,
+      "section_name": "思い込みの転換（shift）",
+      "goal": "「査定＝売ると決めること」という思い込みを静かに崩す",
+      "start_hint": "11〜12秒",
+      "end_hint": "20〜22秒",
+      "narration_summary": "でも、相場を確認することと、売ると決めることは、別のことです。まず今の価値を知るだけでも、構いません。",
+      "visual_evidence_required": [
+        "箱の中にバッグが見えるシーン（observations: 00:08）",
+        "バッグが箱から取り出されるシーン（observations: 00:13）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:08",
+          "description": "箱の中にバッグが見える"
+        },
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:13",
+          "description": "バッグが箱から取り出される"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 9
+    },
+    {
+      "section_id": 4,
+      "section_name": "映像の事実提示（proof）",
+      "goal": "白手袋での丁寧な取り扱いと正面・側面の確認映像を通じて、「大切に見ている」という姿勢を言葉より先に映像で示す",
+      "start_hint": "20〜22秒",
+      "end_hint": "32〜34秒",
+      "narration_summary": "バッグは白手袋で丁寧に取り出し、正面・側面・状態を一つひとつ確認します。グレージュ×シルバー、箱付きで良好な状態。どの条件が相場に関わるか、理由まで含めてお伝えします。",
+      "visual_evidence_required": [
+        "バッグの正面と上部が映るシーン（observations: 00:14）",
+        "バッグの側面が映るシーン（observations: 00:20）",
+        "バッグのもう一方の側面が映るシーン（observations: 00:25）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:14",
+          "description": "バッグの正面と上部が映る"
+        },
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:20",
+          "description": "バッグの側面が映る"
+        },
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:25",
+          "description": "バッグのもう一方の側面が映る"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 11
+    },
+    {
+      "section_id": 5,
+      "section_name": "安心感の付与（relief）",
+      "goal": "「今すぐ決めなくていい」「相場だけでいい」という安心を与え、CTA前のハードルを下げる",
+      "start_hint": "32〜34秒",
+      "end_hint": "40〜42秒",
+      "narration_summary": "今すぐ売らなくても大丈夫です。今日決めなくても大丈夫です。相場だけ知りたいという段階でも、お声がけください。",
+      "visual_evidence_required": [
+        "バッグが箱に戻されるシーン（observations: 00:29）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:29",
+          "description": "バッグが箱に戻される"
+        }
+      ],
+      "cta_role": false,
+      "estimated_duration_sec": 8
+    },
+    {
+      "section_id": 6,
+      "section_name": "低ハードルCTA",
+      "goal": "写真3枚から相談できることを伝え、LINEへの問い合わせをそっと促す",
+      "start_hint": "40〜42秒",
+      "end_hint": "47〜50秒",
+      "narration_summary": "LINEに写真3枚送っていただくだけで、相場感をお伝えできます。エルメス専門買取TBT、東京・蔵前。",
+      "visual_evidence_required": [
+        "バッグが再び箱から取り出され、正面と上部が映るシーン（observations: 00:37）"
+      ],
+      "candidate_clips": [
+        {
+          "source_file": "IMG_9277.mov",
+          "timecode": "00:37",
+          "description": "バッグが再び箱から取り出され、正面と上部が映る"
+        }
+      ],
+      "cta_role": true,
+      "estimated_duration_sec": 7
+    }
+  ],
+  "differentiation_note": "白手袋で丁寧に扱う映像・箱から取り出す工程を見せることで、「大切なものを大切に扱う専門店」という姿勢を言葉より先に映像で示す。査定額の提示だけでなく「なぜその額か」まで伝える透明性がTBTの軸。",
+  "forbidden_claim_check": [],
+  "caption": "査定を頼む＝売ると決めること、ではありません。\n\n相場だけ確認したい。今は手放すかまだ迷っている。そんな段階でも、LINEからお気軽にご相談いただけます。\n\n写真3枚から相場をお伝えすることができます。決めるのはその後で、ご自分のペースで大丈夫です。\n\nグレージュ×シルバーのピコタン、状態がよければなおさら、今の相場感を一度確認しておくだけでも、判断の整理になるかもしれません。\n\nエルメス専門買取 TBT｜東京・蔵前\nLINEよりお問い合わせください。",
+  "emotional_design": {
+    "target_inner_conflict": "売るかどうかまだ決めていないのに、査定を頼んでいいのかどうか分からなくて、結局何もしないままになっている",
+    "hidden_fear": "売ると決めていないのに問い合わせて、迷惑だと思われたくない",
+    "embarrassment_trigger": "「相場だけ聞きたい」だけで連絡するのは、相手の時間を無駄にしてしまうのではないかという気まずさ",
+    "belief_to_shift": "査定を頼むのは、売ると決めてからすることのはず",
+    "shift_statement": "相場を確認することと、売ると決めることは、別のタイミングで構いません。写真3枚から相場だけお伝えすることもできます",
+    "emotional_hook_type": "独り言型",
+    "reassurance_angle": "相場を確認するだけでも大丈夫。売ると決めてから動く必要はありません",
+    "cta_barrier_reduction": "写真3枚だけでOK / 相場の確認だけでも大丈夫 / その場で決めなくていい",
+    "benefit_design": {
+      "primary_benefit": "今の相場感が分かることで、売るかどうかを自分のペースで判断できるようになる",
+      "benefit_angle": "判断整理",
+      "why_now": "箱付きで状態も良好なピコタンは相場が安定しやすい条件が揃っており、今の相場感を確認しておくことで手放すかどうかの判断軸が持ちやすくなります",
+      "decision_value": "売る・売らない・もう少し待つ、どの選択が自分に合うかを自分で決められる"
+    }
+  }
+}

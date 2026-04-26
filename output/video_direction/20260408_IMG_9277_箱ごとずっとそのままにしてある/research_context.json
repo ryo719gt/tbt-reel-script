@@ -1,0 +1,94 @@
+{
+  "run_id": "e0b44ea0",
+  "source_videos": [
+    "/Users/ryon/Library/CloudStorage/OneDrive-R.N.WEB/FKWEB/株式会社TBT様/SNS/2026/ピコタンPM トリヨンクレマンス エトゥープ SV金具 K刻印/IMG_9277.mov"
+  ],
+  "primary_source_video": "/Users/ryon/Library/CloudStorage/OneDrive-R.N.WEB/FKWEB/株式会社TBT様/SNS/2026/ピコタンPM トリヨンクレマンス エトゥープ SV金具 K刻印/IMG_9277.mov",
+  "notes": "",
+  "observation": {
+    "run_id": "e0b44ea0",
+    "source_video": "IMG_9277.mov",
+    "brand": "Hermès",
+    "product_category": "バッグ",
+    "product_family_guess": "ピコタン",
+    "product_family_confidence": 0.9,
+    "visible_materials": [
+      "レザー",
+      "段ボール"
+    ],
+    "visible_color": "グレージュ",
+    "visible_hardware": "シルバー",
+    "visible_damage": [],
+    "damage_confidence": 1.0,
+    "accessories_detected": [
+      "箱"
+    ],
+    "accessories_missing_or_unconfirmed": [
+      "保存袋"
+    ],
+    "angles_present": [
+      "front",
+      "side",
+      "top"
+    ],
+    "angles_missing": [
+      "corners",
+      "bottom",
+      "hardware",
+      "label",
+      "inside"
+    ],
+    "text_detected_on_screen": [
+      "HERMÈS"
+    ],
+    "speech_summary": "",
+    "notable_timestamps": [
+      {
+        "timecode": "00:00",
+        "description": "エルメスのオレンジ色の箱が映っている"
+      },
+      {
+        "timecode": "00:06",
+        "description": "白い手袋をはめた手が箱を開ける"
+      },
+      {
+        "timecode": "00:08",
+        "description": "箱の中にバッグが見える"
+      },
+      {
+        "timecode": "00:13",
+        "description": "バッグが箱から取り出される"
+      },
+      {
+        "timecode": "00:14",
+        "description": "バッグの正面と上部が映る"
+      },
+      {
+        "timecode": "00:20",
+        "description": "バッグの側面が映る"
+      },
+      {
+        "timecode": "00:25",
+        "description": "バッグのもう一方の側面が映る"
+      },
+      {
+        "timecode": "00:29",
+        "description": "バッグが箱に戻される"
+      },
+      {
+        "timecode": "00:37",
+        "description": "バッグが再び箱から取り出され、正面と上部が映る"
+      }
+    ],
+    "uncertainty_flags": [
+      "正確な革の種類（例：クレマンス、トゴ）は未確認",
+      "正確な色名（例：エトゥープ、グリトゥルティエール）は未確認",
+      "バッグのサイズは未確認"
+    ],
+    "evidence_notes": "バッグは白い手袋をはめた手で扱われており、新品または非常に良好な状態を示唆している。白いコントラストステッチが目立つ。内側は外側の色よりも濃い色に見える。",
+    "overall_visual_quality": "good",
+    "needs_human_review": true
+  },
+  "market_context": null,
+  "persona_insights": null
+}

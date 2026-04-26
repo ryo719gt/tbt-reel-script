@@ -1,0 +1,81 @@
+{
+  "run_id": "e525082a",
+  "source_video": "IMG_9258.mov",
+  "brand": "HERMÈS",
+  "product_category": "バッグ",
+  "product_family_guess": "ピコタン",
+  "product_family_confidence": 1.0,
+  "visible_materials": [
+    "レザー（グレイン）",
+    "ファブリック（ダストバッグ、ティッシュペーパー）",
+    "金属"
+  ],
+  "visible_color": "ブラック（バッグ）、オレンジ（箱）、ホワイト（ティッシュペーパー）、ベージュ/オフホワイト（ダストバッグ）、ダークグリーン/ブルー（内装）",
+  "visible_hardware": "シルバー",
+  "visible_damage": [],
+  "damage_confidence": 1.0,
+  "accessories_detected": [
+    "オリジナルボックス",
+    "ダストバッグ（バッグ用）",
+    "ダストバッグ（ロック・キー用）",
+    "ティッシュペーパー",
+    "ロック",
+    "キー"
+  ],
+  "accessories_missing_or_unconfirmed": [
+    "レシート",
+    "ケアカード"
+  ],
+  "angles_present": [
+    "トップ",
+    "フロント",
+    "サイド",
+    "ボトム",
+    "内装",
+    "金具（バックル、底鋲、ロック、キー）",
+    "レザーの質感",
+    "ラベル"
+  ],
+  "angles_missing": [],
+  "text_detected_on_screen": [
+    "HERMÈS",
+    "HERMÈS PARIS MADE IN FRANCE"
+  ],
+  "speech_summary": "",
+  "notable_timestamps": [
+    {
+      "timecode": "00:02",
+      "description": "開梱開始"
+    },
+    {
+      "timecode": "00:28",
+      "description": "保存袋の露出"
+    },
+    {
+      "timecode": "00:35",
+      "description": "保存袋のロゴのクローズアップ"
+    },
+    {
+      "timecode": "01:03",
+      "description": "バッグの露出"
+    },
+    {
+      "timecode": "01:22",
+      "description": "バッグの底面と底鋲"
+    },
+    {
+      "timecode": "01:50",
+      "description": "バッグの内装とラベル"
+    },
+    {
+      "timecode": "02:32",
+      "description": "ロックとキーの露出"
+    }
+  ],
+  "uncertainty_flags": [
+    "レシートやケアカードは表示されていません"
+  ],
+  "evidence_notes": "バッグは新品同様の状態に見えます。革の質感は均一で、ステッチもきれいです。金具は光沢があり、傷はありません。",
+  "overall_visual_quality": "good",
+  "needs_human_review": false
+}

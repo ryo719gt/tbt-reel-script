@@ -1,0 +1,129 @@
+[
+  {
+    "cue_id": 1,
+    "section_name": "hook",
+    "purpose": "hook",
+    "master_line": "箱を開けて、また閉じた。そのままにしている日が、もう何度あったでしょう。",
+    "narration_line": "箱を開けて、また閉じた。",
+    "text_line": "箱を開けて、また閉じた。",
+    "estimated_duration": 2.2,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "箱を開けて、",
+      "また閉じた。"
+    ]
+  },
+  {
+    "cue_id": 2,
+    "section_name": "hook",
+    "purpose": "hook",
+    "master_line": "箱を開けて、また閉じた。そのままにしている日が、もう何度あったでしょう。",
+    "narration_line": "そのままにしている日が、もう何度あったでしょう。",
+    "text_line": "そのまま、何度目でしょう。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "そのまま、",
+      "何度目でしょう。"
+    ]
+  },
+  {
+    "cue_id": 3,
+    "section_name": "memory_scene",
+    "purpose": "memory_scene",
+    "master_line": "トープのピコタン。カデナも鍵も保存袋も、買ったときのままそこにある。",
+    "narration_line": "トープのピコタンが、箱の中にある。",
+    "text_line": "トープのピコタン。",
+    "estimated_duration": 3.1,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "トープのピコタン。"
+    ]
+  },
+  {
+    "cue_id": 4,
+    "section_name": "memory_scene",
+    "purpose": "memory_scene",
+    "master_line": "カデナも鍵も保存袋も、買ったときのままそこにある。それだけは、ちゃんと分かる。",
+    "narration_line": "カデナも、鍵も、保存袋も、そのままで。",
+    "text_line": "付属品も、買ったときのまま。",
+    "estimated_duration": 3.5,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "付属品も、",
+      "買ったときのまま。"
+    ]
+  },
+  {
+    "cue_id": 5,
+    "section_name": "hesitation",
+    "purpose": "hesitation",
+    "master_line": "売ると決めたわけでもないのに連絡するのは、なんだか申し訳ない気がして。そう思うまま、また箱を棚に戻す。",
+    "narration_line": "売ると決めたわけでもないのに連絡するのは、申し訳ない気がして。",
+    "text_line": "売ると決めていないのに、聞いていいのか。",
+    "estimated_duration": 5.6,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売ると決めていないのに、",
+      "聞いていいのか。"
+    ]
+  },
+  {
+    "cue_id": 6,
+    "section_name": "concrete_moment",
+    "purpose": "concrete_moment",
+    "master_line": "でも、相場を知ることは、売ると決めることとは別のことかもしれない。",
+    "narration_line": "でも、相場を知ることと、売ると決めることは、別のことかもしれない。",
+    "text_line": "相場を知ること ≠ 売ると決めること",
+    "estimated_duration": 6.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "相場を知るこ",
+      "≠ 売ると決めるこ"
+    ]
+  },
+  {
+    "cue_id": 7,
+    "section_name": "concrete_moment",
+    "purpose": "concrete_moment",
+    "master_line": "今の状態なら、確認だけでも、できる気がした。",
+    "narration_line": "今の状態なら、確認だけでも、できる気がした。",
+    "text_line": "確認だけでも、できる気がした。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "medium",
+    "display_units": [
+      "確認だけでも、",
+      "できる気がした。"
+    ]
+  },
+  {
+    "cue_id": 8,
+    "section_name": "aftertaste",
+    "purpose": "aftertaste",
+    "master_line": "売るかどうかは、そのあとで、自分で決めればいい。",
+    "narration_line": "売るかどうかは、そのあとで、自分で決めればいい。",
+    "text_line": "売るかどうかは、あとで自分で決めればいい。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売るかどうかは、",
+      "あとで自分で決めればいい。"
+    ]
+  }
+]

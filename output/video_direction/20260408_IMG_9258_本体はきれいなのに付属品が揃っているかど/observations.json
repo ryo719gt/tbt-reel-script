@@ -1,0 +1,137 @@
+{
+  "run_id": "5e862df6",
+  "source_video": "IMG_9258.mov, IMG_9267.mov",
+  "brand": "Hermes",
+  "product_category": "バッグ",
+  "product_family_guess": "Picotin",
+  "product_family_confidence": 0.9,
+  "visible_materials": [
+    "レザー",
+    "ファブリック",
+    "プラスチック",
+    "段ボール"
+  ],
+  "visible_color": "ブラック",
+  "visible_hardware": "シルバー",
+  "visible_damage": [],
+  "damage_confidence": 0.9,
+  "accessories_detected": [
+    "箱",
+    "保存袋",
+    "ティッシュペーパー",
+    "鍵",
+    "南京錠",
+    "ミニ保存袋"
+  ],
+  "accessories_missing_or_unconfirmed": [
+    "保存袋",
+    "カデナ",
+    "鍵",
+    "レシート",
+    "ケアブックレット"
+  ],
+  "angles_present": [
+    "正面",
+    "側面",
+    "背面",
+    "底面",
+    "内側",
+    "金具",
+    "ブランドロゴ",
+    "素材のクローズアップ",
+    "トップ",
+    "フロント",
+    "サイド",
+    "バック"
+  ],
+  "angles_missing": [
+    "刻印",
+    "金具のクローズアップ",
+    "内部",
+    "ステッチのクローズアップ"
+  ],
+  "text_detected_on_screen": [
+    "HERMES",
+    "PARIS",
+    "MADE IN FRANCE"
+  ],
+  "speech_summary": "",
+  "notable_timestamps": [
+    {
+      "timecode": "00:00",
+      "description": "箱の提示"
+    },
+    {
+      "timecode": "00:02",
+      "description": "箱を開ける"
+    },
+    {
+      "timecode": "00:19",
+      "description": "保存袋の提示"
+    },
+    {
+      "timecode": "00:30",
+      "description": "保存袋のロゴのクローズアップ"
+    },
+    {
+      "timecode": "01:02",
+      "description": "バッグ本体の提示（ブラックレザー）"
+    },
+    {
+      "timecode": "01:09",
+      "description": "バッグの側面と底面の提示"
+    },
+    {
+      "timecode": "01:24",
+      "description": "バッグの底鋲のクローズアップ"
+    },
+    {
+      "timecode": "01:30",
+      "description": "バッグのサイドステッチのクローズアップ"
+    },
+    {
+      "timecode": "01:50",
+      "description": "バッグの内側と内ポケットの提示"
+    },
+    {
+      "timecode": "01:54",
+      "description": "内ポケットのブランドロゴのクローズアップ"
+    },
+    {
+      "timecode": "02:06",
+      "description": "バッグのバックルのクローズアップ"
+    },
+    {
+      "timecode": "02:28",
+      "description": "鍵と南京錠が入ったミニ保存袋の提示"
+    },
+    {
+      "timecode": "02:40",
+      "description": "鍵と南京錠のクローズアップ"
+    },
+    {
+      "timecode": "00:01",
+      "description": "エルメスの箱を開ける"
+    },
+    {
+      "timecode": "00:03",
+      "description": "黒いバッグを取り出す"
+    },
+    {
+      "timecode": "00:08",
+      "description": "バッグの前面がはっきりと見える"
+    },
+    {
+      "timecode": "00:14",
+      "description": "バッグの背面が見える"
+    },
+    {
+      "timecode": "00:17",
+      "description": "バッグの側面と金具が見える"
+    }
+  ],
+  "uncertainty_flags": [],
+  "evidence_notes": "バッグはグレインレザー製で、内側は同色のレザー（おそらくスエードまたは未加工）で、取り外し可能なポーチが付いています。底鋲とバックルはシルバー調です。全体的に良好な状態に見えます。 / バッグは新品または非常に良好な状態に見える。開封動画であることから、新品である可能性が高い。",
+  "overall_visual_quality": "good",
+  "needs_human_review": true
+}

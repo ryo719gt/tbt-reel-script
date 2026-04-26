@@ -1,0 +1,15 @@
+﻿cue_id,section_name,line_text,estimated_duration_sec,source_file,source_timecode,evidence_confidence
+1,hook,売ると決めてから、と思ったまま——,3.1,,--:--,unconfirmed
+2,hook,ピコタンが、クローゼットに眠っていませんか？,4.0,,--:--,medium
+3,pain,相場だけ聞くのは、迷惑かもしれない。,3.3,,--:--,unconfirmed
+4,pain,断りにくくなるかも、と思うと——連絡する前に止まってしまいますよね。,6.2,,--:--,unconfirmed
+5,shift,でも、相場を知ることと、売ることは——,3.5,,--:--,unconfirmed
+6,shift,別の話かもしれません。査定では、何を見ているのでしょう。,5.1,,--:--,unconfirmed
+7,proof,箱、保存袋、鍵、カデナ——付属品がそろっているかを見ていきます。,5.8,,--:--,high
+8,proof,レザーの質感、金具の状態も、一つひとつ見ていきます。,4.7,,--:--,high
+9,benefit_bridge,付属品がフルセットそろっていると、より詳しい相場感をお伝えできます。,6.2,,--:--,high
+10,benefit_bridge,その金額を見てから、売るかどうか、ご自身で決められます。,5.1,,--:--,unconfirmed
+11,relief,まだ売ると決めていなくても、大丈夫ですよ。,3.8,,--:--,unconfirmed
+12,relief,査定額を見てから断っていただいて、もちろんかまいません。,5.1,,--:--,unconfirmed
+13,cta,LINEに写真を3枚送るだけで、参考の相場感をお伝えできます。,5.6,,--:--,unconfirmed
+14,cta,相場だけ知りたい、そんなご連絡でも大丈夫ですよ。,4.4,,--:--,unconfirmed

@@ -1,0 +1,12 @@
+﻿cue_id,section_name,line_text,estimated_duration_sec,source_file,source_timecode,evidence_confidence,display_units
+1,hook,箱ごと、ずっとそのままになっている気がして。,4.0,,--:--,medium,箱ごと、|そのままに。
+2,hook,ピコタンが、クローゼットにあり続けていませんか。,4.4,,--:--,medium,ピコタン、|まだそのまま？
+3,pain,まだ決めていないのに、連絡していいのかな。,3.8,,--:--,unconfirmed,まだ決めていないのに…
+4,pain,相手の時間を取ってしまいそうで、気まずい。,3.8,,--:--,unconfirmed,気まずくて、|後回しに。
+5,shift,相場を知ることと、売ると決めることは、別のことです。,4.7,,--:--,unconfirmed,相場確認|売ると決めること≠
+6,proof,グレージュのピコタンを、白手袋で一面ずつ見ています。,4.7,,--:--,high,白手袋で、|一面ずつ丁寧に。
+7,proof,箱の有無も、状態のよさも、含めて見ています。,4.0,,--:--,high,箱・状態も含めて確認。
+8,benefit_bridge,だから、今の相場感が分かります。,2.9,,--:--,unconfirmed,今の相場感が見えてくる。
+9,benefit_bridge,売る、待つ、手放さない。自分で選びやすくなります。,4.5,,--:--,unconfirmed,どうするかを、|自分で決められる。
+10,relief,その場で決めなくて、大丈夫です。,2.9,,--:--,unconfirmed,その場で決めなくていい。
+11,cta,写真3枚から、LINEで相場確認だけでもどうぞ。,4.4,,--:--,unconfirmed,写真3枚 → LINE |相場確認だけで

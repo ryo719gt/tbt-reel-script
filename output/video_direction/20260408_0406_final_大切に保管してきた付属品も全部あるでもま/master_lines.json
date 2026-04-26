@@ -1,0 +1,178 @@
+[
+  {
+    "cue_id": 1,
+    "section_name": "hook_1",
+    "purpose": "hook",
+    "master_line": "売ると決めてから相談しよう。そう思ったまま時間が過ぎている。",
+    "narration_line": "「売ろう」そう決めたはずなのに。",
+    "text_line": "売ろう、そう決めたはずなのに。",
+    "estimated_duration": 2.9,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売ろう、",
+      "そう決めたはずなのに。"
+    ]
+  },
+  {
+    "cue_id": 2,
+    "section_name": "hook_2",
+    "purpose": "hook",
+    "master_line": "ケリーがクローゼットにそのまま眠っていませんか。",
+    "narration_line": "ケリーが、クローゼットにあり続けていませんか？",
+    "text_line": "ケリーが、そのままになっていませんか？",
+    "estimated_duration": 4.2,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "ケリーが、",
+      "そのままになっていませんか？"
+    ]
+  },
+  {
+    "cue_id": 3,
+    "section_name": "pain_1",
+    "purpose": "pain",
+    "master_line": "まだ決めていないのに連絡するのは相手の時間を無駄にする気がして。",
+    "narration_line": "まだ決めていないのに、連絡するのは気まずい。",
+    "text_line": "まだ決めていないのに、連絡していいのか。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "まだ決めていないのに、",
+      "連絡していいのか。"
+    ]
+  },
+  {
+    "cue_id": 4,
+    "section_name": "pain_2",
+    "purpose": "pain",
+    "master_line": "そのまま後回しにしてしまう。",
+    "narration_line": "そのまま、後回しにしてしまう。",
+    "text_line": "そのまま、後回しに。",
+    "estimated_duration": 2.7,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "そのまま、後回しに。"
+    ]
+  },
+  {
+    "cue_id": 5,
+    "section_name": "shift",
+    "purpose": "shift",
+    "master_line": "相場を確認することと、売ると決めることは別のことです。",
+    "narration_line": "相場を確認することと、売ると決めることは、別のことです。",
+    "text_line": "相場確認 ≠ 売ると決めること",
+    "estimated_duration": 5.1,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "相場確認 ≠",
+      "売ると決めるこ"
+    ]
+  },
+  {
+    "cue_id": 6,
+    "section_name": "proof_1",
+    "purpose": "proof",
+    "master_line": "このケリー、ボックスも保存袋もクロシェットもストラップも揃っている。",
+    "narration_line": "このケリー、箱・保存袋・クロシェット・ストラップと揃っています。",
+    "text_line": "箱・保存袋・クロシェット・ストラップ、全て揃っています。",
+    "estimated_duration": 5.8,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "箱・保存袋・",
+      "クロシェット・ストラップ、",
+      "全て揃っています。"
+    ]
+  },
+  {
+    "cue_id": 7,
+    "section_name": "proof_2",
+    "purpose": "proof",
+    "master_line": "金具には保護フィルムが残ったまま。未使用に近い状態が見てとれます。",
+    "narration_line": "金具に保護フィルムが残ったまま、丁寧に見ています。",
+    "text_line": "金具の保護フィルムも残ったまま。",
+    "estimated_duration": 4.5,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "金具の保護フィルム",
+      "残ったまま。"
+    ]
+  },
+  {
+    "cue_id": 8,
+    "section_name": "benefit_bridge_1",
+    "purpose": "benefit_bridge",
+    "master_line": "この状態のケリーが今どのくらいの相場感なのかを知ることができます。",
+    "narration_line": "この状態のケリーの相場感を、自分のペースで知ることができます。",
+    "text_line": "今の相場感を、自分のペースで確認できます。",
+    "estimated_duration": 5.6,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "今の相場感を、",
+      "自分のペースで確認できます。"
+    ]
+  },
+  {
+    "cue_id": 9,
+    "section_name": "benefit_bridge_2",
+    "purpose": "benefit_bridge",
+    "master_line": "なぜその金額なのかの理由まで知ることができます。",
+    "narration_line": "なぜその金額なのか、理由まで整理できます。",
+    "text_line": "金額の理由まで、分かります。",
+    "estimated_duration": 3.8,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "金額の理由まで、",
+      "分かります。"
+    ]
+  },
+  {
+    "cue_id": 10,
+    "section_name": "relief",
+    "purpose": "relief",
+    "master_line": "売ると決めなくても、その場で決めなくても大丈夫です。",
+    "narration_line": "売ると決めなくても、大丈夫です。",
+    "text_line": "売ると決めなくても、大丈夫です。",
+    "estimated_duration": 2.9,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売ると決めなくても、",
+      "大丈夫です。"
+    ]
+  },
+  {
+    "cue_id": 11,
+    "section_name": "cta",
+    "purpose": "cta",
+    "master_line": "まだ迷っていても、写真3枚からLINEでどうぞ。",
+    "narration_line": "写真3枚から、LINEで相場確認だけでもどうぞ。",
+    "text_line": "写真3枚〜 LINEで相場確認だけでもどうぞ",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "写真3枚〜",
+      "LINEで相場確認だけでもどうぞ"
+    ]
+  }
+]

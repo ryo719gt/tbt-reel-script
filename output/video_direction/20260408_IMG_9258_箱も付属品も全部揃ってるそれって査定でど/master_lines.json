@@ -1,0 +1,232 @@
+[
+  {
+    "cue_id": 1,
+    "section_name": "hook",
+    "purpose": "hook",
+    "master_line": "「売ろう」と決めたはずなのに、止まったまま",
+    "narration_line": "「売ろう」そう決めたはずなのに。",
+    "text_line": "売ろう、そう思ったのに。",
+    "estimated_duration": 2.9,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売ろう、",
+      "そう決めたはずなのに。"
+    ]
+  },
+  {
+    "cue_id": 2,
+    "section_name": "hook",
+    "purpose": "hook",
+    "master_line": "ピコタンが箱のまま止まっている",
+    "narration_line": "ピコタンが、まだ箱のままになっていませんか。",
+    "text_line": "箱のまま、止まっていませんか。",
+    "estimated_duration": 4.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "ピコタンがまだ箱のまま",
+      "止まっていませんか。"
+    ]
+  },
+  {
+    "cue_id": 3,
+    "section_name": "pain",
+    "purpose": "pain",
+    "master_line": "決めていないのに連絡するのは早いかもしれない",
+    "narration_line": "まだ売ると決めていないのに、連絡していいのか。",
+    "text_line": "決めていないのに、連絡していい？",
+    "estimated_duration": 4.2,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "まだ売る",
+      "決めていないの",
+      "連絡していいのか。"
+    ]
+  },
+  {
+    "cue_id": 4,
+    "section_name": "pain",
+    "purpose": "pain",
+    "master_line": "そう思うと、動けなくなる",
+    "narration_line": "そう思うと、動けなくて。",
+    "text_line": "そう思うと、動けない。",
+    "estimated_duration": 2.2,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "そう思うと、",
+      "動けない。"
+    ]
+  },
+  {
+    "cue_id": 5,
+    "section_name": "shift",
+    "purpose": "shift",
+    "master_line": "問い合わせ＝売ると決めること、ではない",
+    "narration_line": "でも、問い合わせることは、売ると決めることではないかもしれません。",
+    "text_line": "問い合わせ＝売ると決めること、ではない。",
+    "estimated_duration": 6.0,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "問い合わせること＝",
+      "売ると決めるこ",
+      "ではない。"
+    ]
+  },
+  {
+    "cue_id": 6,
+    "section_name": "shift",
+    "purpose": "shift",
+    "master_line": "相場を知るための入口として使える",
+    "narration_line": "相場を知るための入口として、使っていただけます。",
+    "text_line": "相場を知る入口として、使えます。",
+    "estimated_duration": 4.4,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "相場を知る",
+      "入口として",
+      "使えます。"
+    ]
+  },
+  {
+    "cue_id": 7,
+    "section_name": "proof",
+    "purpose": "proof",
+    "master_line": "ピコタンの状態・箱・保存袋を丁寧に見ている",
+    "narration_line": "ピコタンの状態、箱、保存袋。ひとつひとつ丁寧に見ています。",
+    "text_line": "状態・箱・保存袋、丁寧に確認。",
+    "estimated_duration": 5.3,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "状態・箱・保存袋、",
+      "ひとつひとつ",
+      "丁寧に確認。"
+    ]
+  },
+  {
+    "cue_id": 8,
+    "section_name": "proof",
+    "purpose": "proof",
+    "master_line": "ロック・鍵・フルセットかどうかも確認できる",
+    "narration_line": "ロックと鍵が揃っているかどうかも、ここで見ていきます。",
+    "text_line": "ロック・鍵のセットも確認できます。",
+    "estimated_duration": 4.9,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "high",
+    "display_units": [
+      "ロックと鍵",
+      "揃っているかどうか",
+      "確認できます。"
+    ]
+  },
+  {
+    "cue_id": 9,
+    "section_name": "benefit_bridge",
+    "purpose": "benefit_bridge",
+    "master_line": "自分のピコタンの今の相場感が分かる",
+    "narration_line": "自分のピコタンの相場感が、分かります。",
+    "text_line": "今の相場感が、分かる。",
+    "estimated_duration": 3.5,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "自分のピコタン",
+      "相場感が分かる。"
+    ]
+  },
+  {
+    "cue_id": 10,
+    "section_name": "benefit_bridge",
+    "purpose": "benefit_bridge",
+    "master_line": "売るかどうかは自分のペースで決められる",
+    "narration_line": "売るかどうかは、それから自分のペースで決められます。",
+    "text_line": "売るかどうかは、自分のペースで。",
+    "estimated_duration": 4.7,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売るかどうか",
+      "自分のペース",
+      "決められます。"
+    ]
+  },
+  {
+    "cue_id": 11,
+    "section_name": "relief",
+    "purpose": "relief",
+    "master_line": "売ると決めていなくても大丈夫",
+    "narration_line": "売ると決めていなくても、大丈夫です。",
+    "text_line": "決めていなくて、大丈夫。",
+    "estimated_duration": 3.3,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "売ると決めていなくて",
+      "大丈夫。"
+    ]
+  },
+  {
+    "cue_id": 12,
+    "section_name": "relief",
+    "purpose": "relief",
+    "master_line": "相場を知るだけでも十分",
+    "narration_line": "相場を知るだけでも、それで十分です。",
+    "text_line": "相場だけ知る、でも十分。",
+    "estimated_duration": 3.3,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "相場を知るだけで",
+      "それで十分。"
+    ]
+  },
+  {
+    "cue_id": 13,
+    "section_name": "cta",
+    "purpose": "cta",
+    "master_line": "写真3枚をLINEで送るだけでいい",
+    "narration_line": "写真3枚、LINEに送るだけでいいです。",
+    "text_line": "写真3枚をLINEに送るだけ。",
+    "estimated_duration": 3.6,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "写真3枚",
+      "LINEに送るだけ。"
+    ]
+  },
+  {
+    "cue_id": 14,
+    "section_name": "cta",
+    "purpose": "cta",
+    "master_line": "まず相場だけ見てみる",
+    "narration_line": "まず、相場だけ見てみませんか。",
+    "text_line": "まず、相場だけ見てみる。",
+    "estimated_duration": 2.7,
+    "source_file": "",
+    "source_timecode": "--:--",
+    "evidence_confidence": "unconfirmed",
+    "display_units": [
+      "まず、相場だけ",
+      "見てみませんか。"
+    ]
+  }
+]

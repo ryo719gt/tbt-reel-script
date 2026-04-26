@@ -562,9 +562,11 @@ def generate_improved_script(topic: str, prev_script: str, evaluation: str) -> s
     return response.content[0].text
 
 
-def save_script(content: str, name: str, is_talk: bool = False) -> str:
+def save_script(content: str, name: str, is_talk: bool = False, improved: bool = False) -> str:
     from datetime import date
     subdir = "talk_reels" if is_talk else "telop_reels"
+    if improved:
+        subdir = os.path.join(subdir, "improved")
     output_dir = os.path.join(BASE_DIR, "output", subdir)
     os.makedirs(output_dir, exist_ok=True)
     safe_name = name.replace(" ", "_").replace("/", "_")[:40]
@@ -605,7 +607,7 @@ def main():
                 print("\n改善版を生成中...\n")
                 improved = generate_improved_script(topic, script, evaluation)
                 print(improved)
-                path = save_script(improved, f"talk_{topic}_v2", is_talk=True)
+                path = save_script(improved, f"talk_{topic}", is_talk=True, improved=True)
                 print(f"\n保存先: {path}")
         else:
             print(f"\n合計 {score}/15 — 品質基準クリア。")
@@ -664,7 +666,7 @@ def main():
                     print("\n改善版を生成中...\n")
                     improved = generate_improved_script(topic, script, evaluation)
                     print(improved)
-                    path = save_script(improved, f"talk_{topic}_v2", is_talk=True)
+                    path = save_script(improved, f"talk_{topic}", is_talk=True, improved=True)
                     print(f"\n保存先: {path}")
             else:
                 print(f"\n合計 {score}/15 — 品質基準クリア。")
@@ -692,7 +694,7 @@ def main():
                     print("\n改善版を生成中...\n")
                     improved = generate_improved_script(topic, script, evaluation)
                     print(improved)
-                    path = save_script(improved, f"talk_{topic}_v2", is_talk=True)
+                    path = save_script(improved, f"talk_{topic}", is_talk=True, improved=True)
                     print(f"\n保存先: {path}")
             else:
                 print(f"\n合計 {score}/15 — 品質基準クリア。")
