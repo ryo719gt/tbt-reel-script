@@ -723,24 +723,31 @@ Threads単体でマネタイズしようとする運用は絶対NG。
     return response.content[0].text
 
 
-def save_script(content: str, name: str, content_type: str = "telop", improved: bool = False) -> str:
-    """
-    content_type: "telop" | "talk" | "stories" | "threads"
+def save_talk_content(content: str, topic: str, filename: str) -> str:
+    """トークリール・ストーリーズ・Threads をテーマ別フォルダに保存する。
+
+    output/{YYYYMMDD}_{topic}/{filename} に保存。
+    同じテーマの台本・stories・threads が1フォルダにまとまる。
     """
     from datetime import date
-    subdir_map = {
-        "telop": "telop_reels",
-        "talk": "talk_reels",
-        "stories": "stories",
-        "threads": "threads",
-    }
-    subdir = subdir_map.get(content_type, "telop_reels")
-    if improved:
-        subdir = os.path.join(subdir, "improved")
-    output_dir = os.path.join(BASE_DIR, "output", subdir)
-    os.makedirs(output_dir, exist_ok=True)
-    safe_name = name.replace(" ", "_").replace("/", "_")[:40]
     datestamp = date.today().strftime("%Y%m%d")
+    safe_topic = topic.replace(" ", "_").replace("/", "_")[:40]
+    folder = os.path.join(BASE_DIR, "output", f"{datestamp}_{safe_topic}")
+    os.makedirs(folder, exist_ok=True)
+    output_path = os.path.join(folder, filename)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    subprocess.run(["open", "-a", "Obsidian", output_path])
+    return output_path
+
+
+def save_telop_script(content: str, name: str) -> str:
+    """テロップリールを output/telop_reels/{YYYYMMDD}_{name}.md に保存する。"""
+    from datetime import date
+    output_dir = os.path.join(BASE_DIR, "output", "telop_reels")
+    os.makedirs(output_dir, exist_ok=True)
+    datestamp = date.today().strftime("%Y%m%d")
+    safe_name = name.replace(" ", "_").replace("/", "_")[:40]
     output_path = os.path.join(output_dir, f"{datestamp}_{safe_name}.md")
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(content)
@@ -753,7 +760,7 @@ def _run_talk_reel_flow(topic: str):
     print(f"\nトークリール台本を生成中...（テーマ：{topic}）\n")
     script = generate_talk_reel_script(topic)
     print(script)
-    path = save_script(script, f"talk_{topic}", content_type="talk")
+    path = save_talk_content(script, topic, "台本.md")
     print(f"\n保存先: {path}")
 
     print("\n台本を評価中...\n")
@@ -767,7 +774,7 @@ def _run_talk_reel_flow(topic: str):
             print("\n改善版を生成中...\n")
             improved = generate_improved_script(topic, script, evaluation)
             print(improved)
-            path = save_script(improved, f"talk_{topic}", content_type="talk", improved=True)
+            path = save_talk_content(improved, topic, "台本_改善版.md")
             print(f"\n保存先: {path}")
             final_script = improved
     else:
@@ -790,14 +797,14 @@ def _offer_stories_threads(script: str, topic: str):
     print(f"\nストーリーズを生成中...（{chars}文字）\n")
     stories_content = generate_stories(script, topic, chars)
     print(stories_content)
-    stories_path = save_script(stories_content, f"stories_{topic}", content_type="stories")
+    stories_path = save_talk_content(stories_content, topic, f"stories_{chars}文字.md")
     print(f"\n保存先: {stories_path}")
 
     # Threads
     print("\nThreadsツリー投稿を生成中...\n")
     threads_content = generate_threads(script, topic)
     print(threads_content)
-    threads_path = save_script(threads_content, f"threads_{topic}", content_type="threads")
+    threads_path = save_talk_content(threads_content, topic, "threads.md")
     print(f"\n保存先: {threads_path}")
 
 
@@ -830,7 +837,7 @@ def main():
         print(f"\n2本分の台本を生成中...（商品：{product}）\n")
         _, scripts = generate_two_scripts(product)
         print(scripts)
-        path = save_script(scripts, f"{product}_2本セット", content_type="telop")
+        path = save_telop_script(scripts, f"{product}_2本セット")
         print(f"\n保存先: {path}")
 
     # 引数あり → テーマ指定モード（テロップリール）
@@ -839,7 +846,7 @@ def main():
         print(f"\n台本を生成中...（テーマ：{topic}）\n")
         script = generate_script(topic)
         print(script)
-        path = save_script(script, topic, content_type="telop")
+        path = save_telop_script(script, topic)
         print(f"\n保存先: {path}")
 
     # 引数なし → 対話形式でモード選択
@@ -865,7 +872,7 @@ def main():
             print("\nThreadsツリー投稿を生成中...\n")
             threads_content = generate_threads(script, topic)
             print(threads_content)
-            path = save_script(threads_content, f"threads_{topic}", content_type="threads")
+            path = save_talk_content(threads_content, topic, "threads.md")
             print(f"\n保存先: {path}")
 
         elif mode == "5":
@@ -882,7 +889,7 @@ def main():
             print(f"\nストーリーズを生成中...（{chars}文字）\n")
             stories_content = generate_stories(script, topic, chars)
             print(stories_content)
-            path = save_script(stories_content, f"stories_{topic}", content_type="stories")
+            path = save_talk_content(stories_content, topic, f"stories_{chars}文字.md")
             print(f"\n保存先: {path}")
 
         elif mode == "4":
@@ -904,7 +911,7 @@ def main():
                     print("\n改善版を生成中...\n")
                     improved = generate_improved_script(topic, script, evaluation)
                     print(improved)
-                    path = save_script(improved, f"talk_{topic}", content_type="talk", improved=True)
+                    path = save_talk_content(improved, topic, "台本_改善版.md")
                     print(f"\n保存先: {path}")
                     _offer_stories_threads(improved, topic)
             else:
@@ -939,7 +946,7 @@ def main():
             print(f"\n2本分の台本を生成中...\n")
             _, scripts = generate_two_scripts(product)
             print(scripts)
-            path = save_script(scripts, f"{product_name}_2本セット", content_type="telop")
+            path = save_telop_script(scripts, f"{product_name}_2本セット")
             print(f"\n保存先: {path}")
         else:
             print("テーマを入力してください（例：バーキンの相場、本物と偽物の見分け方）")
@@ -950,7 +957,7 @@ def main():
             print(f"\n台本を生成中...（テーマ：{topic}）\n")
             script = generate_script(topic)
             print(script)
-            path = save_script(script, topic, content_type="telop")
+            path = save_telop_script(script, topic)
             print(f"\n保存先: {path}")
 
 
