@@ -1,7 +1,0 @@
-﻿cue_id,section_name,line_text,estimated_duration_sec,source_file,source_timecode,evidence_confidence,display_units
-1,hook,また、棚に戻してしまった。,2.4,,--:--,medium,また、棚|戻してしまった。
-2,memory_scene,箱も保存袋も、買ったときのまま揃っている。,3.8,,--:--,high,箱も保存袋も、|買ったときのまま。
-3,memory_scene,カデナも鍵も。大切にしていたことだけは、分かる。,4.4,,--:--,high,大切にしていたことは、|分かる。
-4,hesitation,まだ売るとは、決めていない。決めていないのに連絡していいのか、それが手を止めていた。,7.6,,--:--,unconfirmed,まだ売ると|決めていない。|決めていないの|連絡していいのか。
-5,concrete_moment,相場を聞くことは、売ると決めることじゃない。そう気づいたとき、少し手が動いた気がした。,7.8,,--:--,unconfirmed,相場を聞くことと、|売ると決めることは違う。
-6,aftertaste,このバッグをどうするかは、それから考えればいい。,4.4,,--:--,unconfirmed,どうするかは、|それから考えればいい。

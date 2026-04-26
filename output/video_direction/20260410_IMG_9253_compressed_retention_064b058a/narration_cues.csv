@@ -1,8 +1,0 @@
-﻿cue_id,section_name,line_text,estimated_duration_sec,source_file,source_timecode,evidence_confidence,display_units
-1,hook,箱も、保存袋も、カデナも。全部揃っているのに。,4.2,,--:--,medium,全部揃っているのに。
-2,hook,ピコタンが、まだそのままになっていませんか。,4.0,,--:--,medium,まだ、そのまま|になっていませんか。
-3,curiosity_gap,揃っているほど、動けなくなる——なぜでしょう。,4.2,,--:--,medium,揃っているほど、|なぜ動けないのか。
-4,concrete_detail,トープのピコタン、ホワイトのステッチ、シルバー金具。,4.7,,--:--,high,トープ|ホワイトステッチ|シルバー金具
-5,concrete_detail,箱、保存袋、カデナ、鍵。革の状態も均一で見ています。,4.7,,--:--,high,付属品すべて揃い、|革の状態も均一。
-6,reframe,相場を確認することと、売ると決めることは、別のことです。,5.1,,--:--,medium,相場確認 ≠|売ると決めるこ
-7,open_loop,今の状態で、相場を一度確認してみると——見えてくるものがあるかもしれません。,6.9,,--:--,medium,相場を一度確認すると、|見えてくるものがある。

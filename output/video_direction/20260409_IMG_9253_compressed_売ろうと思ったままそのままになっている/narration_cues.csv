@@ -1,9 +1,0 @@
-﻿cue_id,section_name,line_text,estimated_duration_sec,source_file,source_timecode,evidence_confidence,display_units
-1,hook,箱を開けて、また閉じた。,2.2,,--:--,unconfirmed,箱を開けて、|また閉じた。
-2,hook,そのままにしている日が、もう何度あったでしょう。,4.4,,--:--,unconfirmed,そのまま、|何度目でしょう。
-3,memory_scene,トープのピコタンが、箱の中にある。,3.1,,--:--,high,トープのピコタン。
-4,memory_scene,カデナも、鍵も、保存袋も、そのままで。,3.5,,--:--,high,付属品も、|買ったときのまま。
-5,hesitation,売ると決めたわけでもないのに連絡するのは、申し訳ない気がして。,5.6,,--:--,unconfirmed,売ると決めていないのに、|聞いていいのか。
-6,concrete_moment,でも、相場を知ることと、売ると決めることは、別のことかもしれない。,6.0,,--:--,unconfirmed,相場を知るこ|≠ 売ると決めるこ
-7,concrete_moment,今の状態なら、確認だけでも、できる気がした。,4.0,,--:--,medium,確認だけでも、|できる気がした。
-8,aftertaste,売るかどうかは、そのあとで、自分で決めればいい。,4.4,,--:--,unconfirmed,売るかどうかは、|あとで自分で決めればいい。
