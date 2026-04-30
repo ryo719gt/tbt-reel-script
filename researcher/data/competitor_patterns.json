@@ -1,0 +1,44 @@
+{
+  "_note": "競合他社の訴求パターン（実運用データ）。observed_at を定期的に更新すること。",
+  "competitor_patterns": [
+    {
+      "competitor_name": "大手買取チェーン（総合）",
+      "platform": "instagram",
+      "hook_pattern": "数字訴求・緊急性",
+      "hook_example": "「今すぐ高額査定！最大〇〇万円」",
+      "angle": "数字訴求",
+      "cta_style": "電話・来店",
+      "weakness": "数字だけで信頼感が薄い。押し売り感が強く「どうせ値切られる」という不安を強化してしまっている",
+      "differentiator": "TBTは「まず相場感を知るだけでいい」という入口の低さと、付属品ひとつひとつを丁寧に見せる誠実さを訴求できる",
+      "url": null,
+      "note": "「今週末限定」系の煽り広告が多い",
+      "observed_at": "2026-03"
+    },
+    {
+      "competitor_name": "フリマアプリ（メルカリ等）",
+      "platform": "x",
+      "hook_pattern": "自己完結・DIY訴求",
+      "hook_example": "「自分で売ればもっと高く売れる」",
+      "angle": "価格優位性",
+      "cta_style": "アプリ誘導",
+      "weakness": "写真撮影・梱包・値下げ交渉・偽物リスク対応など手間が多く、初心者が挫折しやすい",
+      "differentiator": "TBTは「写真3枚送るだけ」「売ると決めなくていい」という手間ゼロ・プレッシャーゼロの導線",
+      "url": null,
+      "note": null,
+      "observed_at": "2026-03"
+    },
+    {
+      "competitor_name": null,
+      "platform": "instagram",
+      "hook_pattern": "権威性訴求",
+      "hook_example": "「鑑定士が直接査定します」",
+      "angle": "権威訴求",
+      "cta_style": "LINE・来店",
+      "weakness": "専門店の敷居感をむしろ強化してしまう。「知識がない自分が行っていいのか」という不安につながる",
+      "differentiator": "TBTは専門知識なしでも気軽にLINEで始められることを前面に出す",
+      "url": null,
+      "note": "業界全般に見られるパターン",
+      "observed_at": "2026-03"
+    }
+  ]
+}
